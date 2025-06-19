@@ -13,7 +13,7 @@
         <video src="./task_video_clean/place_burger_fries/ARX-X5_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
         <video src="./task_video_clean/place_burger_fries/ur5-wsg_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
     </div>
-    <b>Description</b>: Use dual arm to pick the hamburg and frenchfries and put them onto the tray.<br>
+    <br><b>Description</b>: Use dual arm to pick the hamburg and frenchfries and put them onto the tray.<br>
     <b>Average Steps</b>: 242 (Aloha-AgileX, save_freq=15)<br>
     <b>Objects</b>: 005_french-fries, 006_hamburg, 008_tray<br>
     <table style="margin:0 auto;border-collapse:collapse;width:auto;min-width:180px;background-color:white;">

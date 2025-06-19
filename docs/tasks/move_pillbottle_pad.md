@@ -13,7 +13,7 @@
         <video src="./task_video_clean/move_pillbottle_pad/ARX-X5_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
         <video src="./task_video_clean/move_pillbottle_pad/ur5-wsg_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
     </div>
-    <b>Description</b>: Use one arm to pick the pillbottle and place it onto the pad.<br>
+    <br><b>Description</b>: Use one arm to pick the pillbottle and place it onto the pad.<br>
     <b>Average Steps</b>: 147 (Aloha-AgileX, save_freq=15)<br>
     <b>Objects</b>: 080_pillbottle, block<br>
     <table style="margin:0 auto;border-collapse:collapse;width:auto;min-width:180px;background-color:white;">

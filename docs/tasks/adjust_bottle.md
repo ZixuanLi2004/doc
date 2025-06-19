@@ -13,7 +13,7 @@
         <video src="./task_video_clean/adjust_bottle/ARX-X5_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
         <video src="./task_video_clean/adjust_bottle/ur5-wsg_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
     </div>
-    <b>Description</b>: Pick up the bottle on the table headup with the correct arm.<br>
+    <br><b>Description</b>: Pick up the bottle on the table headup with the correct arm.<br>
     <b>Average Steps</b>: 147 (Aloha-AgileX, save_freq=15)<br>
     <b>Objects</b>: 001_bottle<br>
     <table style="margin:0 auto;border-collapse:collapse;width:auto;min-width:180px;background-color:white;">

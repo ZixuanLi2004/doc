@@ -13,7 +13,7 @@
         <video src="./task_video_clean/place_dual_shoes/ARX-X5_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
         <video src="./task_video_clean/place_dual_shoes/ur5-wsg_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
     </div>
-    <b>Description</b>: Use both arms to pick up the two shoes on the table and put them in the shoebox, with the shoe tip pointing to the left.<br>
+    <br><b>Description</b>: Use both arms to pick up the two shoes on the table and put them in the shoebox, with the shoe tip pointing to the left.<br>
     <b>Average Steps</b>: 228 (Aloha-AgileX, save_freq=15)<br>
     <b>Objects</b>: 007_shoe-box, 041_shoe<br>
     <table style="margin:0 auto;border-collapse:collapse;width:auto;min-width:180px;background-color:white;">

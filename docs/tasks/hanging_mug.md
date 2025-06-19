@@ -13,7 +13,7 @@
         <video src="./task_video_clean/hanging_mug/ARX-X5_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
         <video src="./task_video_clean/hanging_mug/ur5-wsg_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
     </div>
-    <b>Description</b>: Use left arm to pick the mug on the table, rotate the mug and put the mug down in the middle of the table, use the right arm to pick the mug and hang it onto the rack.<br>
+    <br><b>Description</b>: Use left arm to pick the mug on the table, rotate the mug and put the mug down in the middle of the table, use the right arm to pick the mug and hang it onto the rack.<br>
     <b>Average Steps</b>: 340 (Aloha-AgileX, save_freq=15)<br>
     <b>Objects</b>: 039_mug, 040_rack<br>
     <table style="margin:0 auto;border-collapse:collapse;width:auto;min-width:180px;background-color:white;">

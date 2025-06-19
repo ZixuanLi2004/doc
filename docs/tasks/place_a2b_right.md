@@ -13,7 +13,7 @@
         <video src="./task_video_clean/place_a2b_right/ARX-X5_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
         <video src="./task_video_clean/place_a2b_right/ur5-wsg_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
     </div>
-    <b>Description</b>: Use appropriate arm to place object A on the right of object B.<br>
+    <br><b>Description</b>: Use appropriate arm to place object A on the right of object B.<br>
     <b>Average Steps</b>: 145 (Aloha-AgileX, save_freq=15)<br>
     <b>Objects</b>: 047_mouse, 048_stapler, 050_bell, 057_toycar, 073_rubikscube, 075_bread, 077_phone, 081_playingcards, 086_woodenblock, 107_soap, 112_tea-box, 113_coffee-box<br>
     <table style="margin:0 auto;border-collapse:collapse;width:auto;min-width:180px;background-color:white;">

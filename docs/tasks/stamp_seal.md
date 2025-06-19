@@ -13,7 +13,7 @@
         <video src="./task_video_clean/stamp_seal/ARX-X5_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
         <video src="./task_video_clean/stamp_seal/ur5-wsg_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
     </div>
-    <b>Description</b>: Grab the stamp and stamp onto the specific color mat.<br>
+    <br><b>Description</b>: Grab the stamp and stamp onto the specific color mat.<br>
     <b>Average Steps</b>: 151 (Aloha-AgileX, save_freq=15)<br>
     <b>Objects</b>: 100_seal, block<br>
     <table style="margin:0 auto;border-collapse:collapse;width:auto;min-width:180px;background-color:white;">

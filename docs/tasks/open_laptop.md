@@ -13,7 +13,7 @@
         <video src="./task_video_clean/open_laptop/ARX-X5_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
         <video src="./task_video_clean/open_laptop/ur5-wsg_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
     </div>
-    <b>Description</b>: Use one arm to open the laptop.<br>
+    <br><b>Description</b>: Use one arm to open the laptop.<br>
     <b>Average Steps</b>: 258 (Aloha-AgileX, save_freq=15)<br>
     <b>Objects</b>: 015_laptop<br>
     <table style="margin:0 auto;border-collapse:collapse;width:auto;min-width:180px;background-color:white;">

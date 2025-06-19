@@ -13,7 +13,7 @@
         <video src="./task_video_clean/place_cans_plasticbox/ARX-X5_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
         <video src="./task_video_clean/place_cans_plasticbox/ur5-wsg_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
     </div>
-    <b>Description</b>: Use dual arm to pick and place cans into plasticbox.<br>
+    <br><b>Description</b>: Use dual arm to pick and place cans into plasticbox.<br>
     <b>Average Steps</b>: 289 (Aloha-AgileX, save_freq=15)<br>
     <b>Objects</b>: 062_plasticbox, 071_can<br>
     <table style="margin:0 auto;border-collapse:collapse;width:auto;min-width:180px;background-color:white;">

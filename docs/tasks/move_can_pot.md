@@ -13,7 +13,7 @@
         <video src="./task_video_clean/move_can_pot/ARX-X5_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
         <video src="./task_video_clean/move_can_pot/ur5-wsg_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
     </div>
-    <b>Description</b>: There is a can and a pot on the table, use one arm to pick up the can and move it to beside the pot.<br>
+    <br><b>Description</b>: There is a can and a pot on the table, use one arm to pick up the can and move it to beside the pot.<br>
     <b>Average Steps</b>: 151 (Aloha-AgileX, save_freq=15)<br>
     <b>Objects</b>: 060_kitchenpot, 105_sauce-can<br>
     <table style="margin:0 auto;border-collapse:collapse;width:auto;min-width:180px;background-color:white;">

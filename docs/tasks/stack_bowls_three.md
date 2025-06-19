@@ -13,7 +13,7 @@
         <video src="./task_video_clean/stack_bowls_three/ARX-X5_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
         <video src="./task_video_clean/stack_bowls_three/ur5-wsg_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
     </div>
-    <b>Description</b>: Stack the three bowls on top of each other.<br>
+    <br><b>Description</b>: Stack the three bowls on top of each other.<br>
     <b>Average Steps</b>: 476 (Aloha-AgileX, save_freq=15)<br>
     <b>Objects</b>: 002_bowl<br>
     <table style="margin:0 auto;border-collapse:collapse;width:auto;min-width:180px;background-color:white;">

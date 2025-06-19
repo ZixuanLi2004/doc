@@ -13,7 +13,7 @@
         <video src="./task_video_clean/stack_blocks_three/ARX-X5_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
         <video src="./task_video_clean/stack_blocks_three/ur5-wsg_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
     </div>
-    <b>Description</b>: There are three blocks on the table, the color of the blocks is red, green and blue. Move the blocks to the center of the table, and stack the blue block on the green block, and the green block on the red block.<br>
+    <br><b>Description</b>: There are three blocks on the table, the color of the blocks is red, green and blue. Move the blocks to the center of the table, and stack the blue block on the green block, and the green block on the red block.<br>
     <b>Average Steps</b>: 481 (Aloha-AgileX, save_freq=15)<br>
     <b>Objects</b>: block<br>
     <table style="margin:0 auto;border-collapse:collapse;width:auto;min-width:180px;background-color:white;">

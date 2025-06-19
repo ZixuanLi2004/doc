@@ -13,7 +13,7 @@
         <video src="./task_video_clean/beat_block_hammer/ARX-X5_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
         <video src="./task_video_clean/beat_block_hammer/ur5-wsg_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
     </div>
-    <b>Description</b>: There is a hammer and a block on the table, use the arm to grab the hammer and beat the block.<br>
+    <br><b>Description</b>: There is a hammer and a block on the table, use the arm to grab the hammer and beat the block.<br>
     <b>Average Steps</b>: 113 (Aloha-AgileX, save_freq=15)<br>
     <b>Objects</b>: 020_hammer, block<br>
     <table style="margin:0 auto;border-collapse:collapse;width:auto;min-width:180px;background-color:white;">

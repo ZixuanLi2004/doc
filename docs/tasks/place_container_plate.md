@@ -13,7 +13,7 @@
         <video src="./task_video_clean/place_container_plate/ARX-X5_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
         <video src="./task_video_clean/place_container_plate/ur5-wsg_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
     </div>
-    <b>Description</b>: Place the container onto the plate.<br>
+    <br><b>Description</b>: Place the container onto the plate.<br>
     <b>Average Steps</b>: 156 (Aloha-AgileX, save_freq=15)<br>
     <b>Objects</b>: 002_bowl, 003_plate, 021_cup<br>
     <table style="margin:0 auto;border-collapse:collapse;width:auto;min-width:180px;background-color:white;">

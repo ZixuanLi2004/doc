@@ -13,7 +13,7 @@
         <video src="./task_video_clean/place_fan/ARX-X5_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
         <video src="./task_video_clean/place_fan/ur5-wsg_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
     </div>
-    <b>Description</b>: Grab the fan and place it on a colored mat, and make sure the fan is facing the robot.<br>
+    <br><b>Description</b>: Grab the fan and place it on a colored mat, and make sure the fan is facing the robot.<br>
     <b>Average Steps</b>: 148 (Aloha-AgileX, save_freq=15)<br>
     <b>Objects</b>: 099_fan, block<br>
     <table style="margin:0 auto;border-collapse:collapse;width:auto;min-width:180px;background-color:white;">

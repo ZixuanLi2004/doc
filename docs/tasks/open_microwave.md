@@ -13,7 +13,7 @@
         <video src="./task_video_clean/open_microwave/ARX-X5_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
         <video src="./task_video_clean/open_microwave/ur5-wsg_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
     </div>
-    <b>Description</b>: Use one arm to open the microwave.<br>
+    <br><b>Description</b>: Use one arm to open the microwave.<br>
     <b>Average Steps</b>: 537 (Aloha-AgileX, save_freq=15)<br>
     <b>Objects</b>: 044_microwave<br>
     <table style="margin:0 auto;border-collapse:collapse;width:auto;min-width:180px;background-color:white;">

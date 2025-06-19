@@ -13,7 +13,7 @@
         <video src="./task_video_clean/pick_diverse_bottles/ARX-X5_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
         <video src="./task_video_clean/pick_diverse_bottles/ur5-wsg_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
     </div>
-    <b>Description</b>: Pick up one bottle with one arm, and pick up another bottle with the other arm.<br>
+    <br><b>Description</b>: Pick up one bottle with one arm, and pick up another bottle with the other arm.<br>
     <b>Average Steps</b>: 122 (Aloha-AgileX, save_freq=15)<br>
     <b>Objects</b>: 001_bottle<br>
     <table style="margin:0 auto;border-collapse:collapse;width:auto;min-width:180px;background-color:white;">

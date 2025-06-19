@@ -13,7 +13,7 @@
         <video src="./task_video_clean/place_object_scale/ARX-X5_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
         <video src="./task_video_clean/place_object_scale/ur5-wsg_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
     </div>
-    <b>Description</b>: Use one arm to grab the object and put it on the scale.<br>
+    <br><b>Description</b>: Use one arm to grab the object and put it on the scale.<br>
     <b>Average Steps</b>: 146 (Aloha-AgileX, save_freq=15)<br>
     <b>Objects</b>: 047_mouse, 048_stapler, 050_bell, 072_electronicscale<br>
     <table style="margin:0 auto;border-collapse:collapse;width:auto;min-width:180px;background-color:white;">

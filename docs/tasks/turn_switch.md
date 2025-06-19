@@ -13,7 +13,7 @@
         <video src="./task_video_clean/turn_switch/ARX-X5_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
         <video src="./task_video_clean/turn_switch/ur5-wsg_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
     </div>
-    <b>Description</b>: Use the robotic arm to click the switch.<br>
+    <br><b>Description</b>: Use the robotic arm to click the switch.<br>
     <b>Average Steps</b>: 95 (Aloha-AgileX, save_freq=15)<br>
     <b>Objects</b>: 056_switch<br>
     <table style="margin:0 auto;border-collapse:collapse;width:auto;min-width:180px;background-color:white;">

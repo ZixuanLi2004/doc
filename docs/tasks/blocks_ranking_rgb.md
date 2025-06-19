@@ -13,7 +13,7 @@
         <video src="./task_video_clean/blocks_ranking_rgb/ARX-X5_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
         <video src="./task_video_clean/blocks_ranking_rgb/ur5-wsg_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
     </div>
-    <b>Description</b>: Place the red block, green block, and blue block in the order of red, green, and blue from left to right, placing in a row.<br>
+    <br><b>Description</b>: Place the red block, green block, and blue block in the order of red, green, and blue from left to right, placing in a row.<br>
     <b>Average Steps</b>: 466 (Aloha-AgileX, save_freq=15)<br>
     <b>Objects</b>: block<br>
     <table style="margin:0 auto;border-collapse:collapse;width:auto;min-width:180px;background-color:white;">

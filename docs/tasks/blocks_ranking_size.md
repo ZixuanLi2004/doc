@@ -13,7 +13,7 @@
         <video src="./task_video_clean/blocks_ranking_size/ARX-X5_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
         <video src="./task_video_clean/blocks_ranking_size/ur5-wsg_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
     </div>
-    <b>Description</b>: There are three blocks on the table, the color of the blocks is random, move the blocks to the center of the table, and arrange them from largest to smallest, from left to right.<br>
+    <br><b>Description</b>: There are three blocks on the table, the color of the blocks is random, move the blocks to the center of the table, and arrange them from largest to smallest, from left to right.<br>
     <b>Average Steps</b>: 466 (Aloha-AgileX, save_freq=15)<br>
     <b>Objects</b>: block<br>
     <table style="margin:0 auto;border-collapse:collapse;width:auto;min-width:180px;background-color:white;">

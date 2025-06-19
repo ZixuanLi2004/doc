@@ -13,7 +13,7 @@
         <video src="./task_video_clean/place_bread_skillet/ARX-X5_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
         <video src="./task_video_clean/place_bread_skillet/ur5-wsg_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
     </div>
-    <b>Description</b>: If there is one bread on the table, use one arm to grab the bread and put it into the skillet.<br>
+    <br><b>Description</b>: If there is one bread on the table, use one arm to grab the bread and put it into the skillet.<br>
     <b>Average Steps</b>: 162 (Aloha-AgileX, save_freq=15)<br>
     <b>Objects</b>: 075_bread, 106_skillet<br>
     <table style="margin:0 auto;border-collapse:collapse;width:auto;min-width:180px;background-color:white;">

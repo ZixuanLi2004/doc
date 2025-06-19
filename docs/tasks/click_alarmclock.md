@@ -13,7 +13,7 @@
         <video src="./task_video_clean/click_alarmclock/ARX-X5_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
         <video src="./task_video_clean/click_alarmclock/ur5-wsg_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
     </div>
-    <b>Description</b>: Click the alarm clock's center of the top side button on the table.<br>
+    <br><b>Description</b>: Click the alarm clock's center of the top side button on the table.<br>
     <b>Average Steps</b>: 85 (Aloha-AgileX, save_freq=15)<br>
     <b>Objects</b>: 046_alarm-clock<br>
     <table style="margin:0 auto;border-collapse:collapse;width:auto;min-width:180px;background-color:white;">

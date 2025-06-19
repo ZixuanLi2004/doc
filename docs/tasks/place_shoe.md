@@ -13,7 +13,7 @@
         <video src="./task_video_clean/place_shoe/ARX-X5_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
         <video src="./task_video_clean/place_shoe/ur5-wsg_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
     </div>
-    <b>Description</b>: Use one arm to grab the shoe from the table and place it on the mat.<br>
+    <br><b>Description</b>: Use one arm to grab the shoe from the table and place it on the mat.<br>
     <b>Average Steps</b>: 178 (Aloha-AgileX, save_freq=15)<br>
     <b>Objects</b>: 041_shoe, block<br>
     <table style="margin:0 auto;border-collapse:collapse;width:auto;min-width:180px;background-color:white;">

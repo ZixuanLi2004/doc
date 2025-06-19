@@ -13,7 +13,7 @@
         <video src="./task_video_clean/dump_bin_bigbin/ARX-X5_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
         <video src="./task_video_clean/dump_bin_bigbin/ur5-wsg_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
     </div>
-    <b>Description</b>: Grab the small bin and pour the balls into the big bin.<br>
+    <br><b>Description</b>: Grab the small bin and pour the balls into the big bin.<br>
     <b>Average Steps</b>: 265 (Aloha-AgileX, save_freq=15)<br>
     <b>Objects</b>: 011_dustbin, 063_tabletrashbin<br>
     <table style="margin:0 auto;border-collapse:collapse;width:auto;min-width:180px;background-color:white;">

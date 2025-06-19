@@ -13,7 +13,7 @@
         <video src="./task_video_clean/lift_pot/ARX-X5_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
         <video src="./task_video_clean/lift_pot/ur5-wsg_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
     </div>
-    <b>Description</b>: Use arms to lift the pot.<br>
+    <br><b>Description</b>: Use arms to lift the pot.<br>
     <b>Average Steps</b>: 112 (Aloha-AgileX, save_freq=15)<br>
     <b>Objects</b>: 060_kitchenpot<br>
     <table style="margin:0 auto;border-collapse:collapse;width:auto;min-width:180px;background-color:white;">

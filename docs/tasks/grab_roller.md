@@ -13,7 +13,7 @@
         <video src="./task_video_clean/grab_roller/ARX-X5_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
         <video src="./task_video_clean/grab_roller/ur5-wsg_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
     </div>
-    <b>Description</b>: Use both arms to grab the roller on the table.<br>
+    <br><b>Description</b>: Use both arms to grab the roller on the table.<br>
     <b>Average Steps</b>: 94 (Aloha-AgileX, save_freq=15)<br>
     <b>Objects</b>: 102_roller<br>
     <table style="margin:0 auto;border-collapse:collapse;width:auto;min-width:180px;background-color:white;">
