@@ -2,11 +2,7 @@
 comments: true
 ---
 
-# 深圳大学飞跃手册</a>
-
-<!-- <div align="center">
-<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fszu-application.github.io&count_bg=%2300EEFF&title_bg=%23F100FF&icon=&icon_color=%23E7E7E7&title=Visitors&edge_flat=false"/></a>
-</div> -->
+# RoboTwin 2.0
 
 
 <style>
@@ -86,45 +82,53 @@ hr.narrow {margin: 0 10px}
   tr:hover {background-color: #ddd;}
 </style>
 
-欢迎！[深圳大学飞跃手册](https://https://szu-feiyue.github.io/) 是一份汇聚深圳大学往年学长学姐<strong>留学、保研、考研、就业</strong>4个大方向的案例向经验分享网站。由 [深圳大学飞跃手册编写委员会](./main/committee.md) 提供平台支持。
+<img src="./assets/robotwin-text-logo.jpg" alt="描述信息" style="display: block; margin: auto; width: 70%;">
 
-## 目录
+> Here is the official documentation for RoboTwin 2.0, which includes installation and usage instructions for various RoboTwin functionalities, detailed information on the 50 bimanual tasks in RoboTwin 2.0, comprehensive descriptions of the RoboTwin-OD dataset, and guidelines for joining the community.
 
-<div class="centered-table">
-<table>
-  <tr>
-    <td>🛫 留学</td>
-    <td>📖 保研</td>
-    <td>✍️ 考研</td>
-    <td>💼 就业</td>
-  </tr>
-  <tr>
-    <td><a href="./liuxue/">点击此处跳转</a></td>
-    <td><a href="./baoyan/">点击此处跳转</a></td>
-    <td><a href="./kaoyan/">点击此处跳转</a></td>
-    <td><a href="./jiuye/">点击此处跳转</a></td>
-  </tr>
-</table>
-</div>
+<img src="./assets/teaser.png" alt="描述信息" style="display: block; margin: auto; width: 100%;">
 
-## 贡献方式
-> 化成光照耀后来者
+## Everything about RoboTwin 2.0
 
-点击一下选择对应板块的模版并填写（ `.txt` 格式发送即可），请点击下载:<br>
-【保研、留学分享模版: [浏览](./baoyan/template.md), [下载](./baoyan/template_baoyan.txt)】<br>【[考研分享模版(TODO)]()】<br>【就业分享模版: [浏览](./jiuye/template.md), [下载](./jiuye/template_jiuye.txt)】
+Webpage: [https://robotwin-platform.github.io/](https://robotwin-platform.github.io/)
 
-最后发送到邮箱: <a href="mailto:chentianxing2002@gmail.com">chentianxing2002@gmail.com</a>，或添加微信发送: **TianxingChen_2002**
+Paper (arXiv): [RoboTwin 2.0: A Scalable Data Generator and Benchmark with Strong Domain Randomization for Robust Bimanual Robotic Manipulation]()
 
-您只需要填写内容即可，手册的维护人员会负责进行排版与发布。
+Github Repo: [http://github.com/robotwin-Platform/RoboTwin](http://github.com/robotwin-Platform/RoboTwin)
 
-如果您不习惯于使用 Github 或者是不喜欢 `.txt` 语言格式，可以直接以你习惯的文档形式（any, e.g. `.md` / word `.docx` / `.pdf`）。
+## Previous Works
 
-<!-- ### 页面评论区
+<b>[CVPR 2025 Highlight]</b> <a href="https://arxiv.org/abs/2504.13059">RoboTwin: Dual-Arm Robot Benchmark with Generative Digital Twins</a><br>
+<b>[CVPR 2025 Challenge@MEIS Workshop]</b> The Technical report is coming soon !<br>
+<b>[ECCV 2024 MAAS Workshop Best Paper]</b> <a href="https://arxiv.org/abs/2409.02920">RoboTwin: Dual-Arm Robot Benchmark with Generative Digital Twins (early version)</a><br>
+<b>[第十九届挑战杯官方赛题]</b> <a href="https://2025.tiaozhanbei.net/media/ckeditor_uploads/49/2025/05/14/4.%E3%80%90%E9%A2%98%E7%9B%AE%E5%9B%9B%E3%80%91%E7%AB%AF%E4%BE%A7%E5%8F%AF%E9%83%A8%E7%BD%B2%E7%9A%84%E5%8F%8C%E8%87%82%E6%93%8D%E4%BD%9C%E7%AE%97%E6%B3%95%E8%AE%BE%E8%AE%A1.pdf">赛题链接</a>
 
-我们在本页面和 [QA](main/qa/) 页面底部放置了评论区，可以在其中提出简短的更新或勘误。 -->
+## Citations
+If you find our work useful, please consider citing:
 
-!!! note "站内导航"
-    -   （PC端）可以通过点击页面页眉位置的横向导航条前往不同的章节。章节内部有若干主题的帖子，选择你感兴趣的浏览即可，可以通过页面右侧的目录栏快速定位到页面指定位置。
-    -   （移动端）可以通过页面左上角的导航栏按钮 :fontawesome-solid-bars: 再点击一次 :material-arrow-left: 以回到主菜单，前往不同的章节。可以通过页面左上角导航栏按钮 :fontawesome-solid-bars: + 页面标题右侧的目录按钮 :material-table-of-contents: 浏览目录快速定位到页面指定位置。
-  
-<!-- <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fszu-feiyue.github.io&count_bg=%23C369D9&title_bg=%23B4315F&icon=googlepodcasts.svg&icon_color=%23D9ED3E&title=Page+Viewers&edge_flat=false"/></a> -->
+RoboTwin 2.0: A Scalable Data Generator and Benchmark with Strong Domain Randomization for Robust Bimanual Robotic Manipulation
+```
+Coming Soon !
+```
+
+RoboTwin: Dual-Arm Robot Benchmark with Generative Digital Twins, accepted to <i style="color: red; display: inline;"><b>CVPR 2025 (Highlight)</b></i>
+```
+@InProceedings{Mu_2025_CVPR,
+    author    = {Mu, Yao and Chen, Tianxing and Chen, Zanxin and Peng, Shijia and Lan, Zhiqian and Gao, Zeyu and Liang, Zhixuan and Yu, Qiaojun and Zou, Yude and Xu, Mingkun and Lin, Lunkai and Xie, Zhiqiang and Ding, Mingyu and Luo, Ping},
+    title     = {RoboTwin: Dual-Arm Robot Benchmark with Generative Digital Twins},
+    booktitle = {Proceedings of the Computer Vision and Pattern Recognition Conference (CVPR)},
+    month     = {June},
+    year      = {2025},
+    pages     = {27649-27660}
+}
+```
+
+RoboTwin: Dual-Arm Robot Benchmark with Generative Digital Twins (**early version**), accepted to <i style="color: red; display: inline;"><b>ECCV Workshop 2024 (Best Paper)</b></i>
+```
+@article{mu2024robotwin,
+  title={RoboTwin: Dual-Arm Robot Benchmark with Generative Digital Twins (early version)},
+  author={Mu, Yao and Chen, Tianxing and Peng, Shijia and Chen, Zanxin and Gao, Zeyu and Zou, Yude and Lin, Lunkai and Xie, Zhiqiang and Luo, Ping},
+  journal={arXiv preprint arXiv:2409.02920},
+  year={2024}
+}
+```

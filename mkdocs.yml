@@ -1,8 +1,8 @@
-site_name: 深圳大学飞跃手册
-repo_url: https://github.com/RoboTwin-Platform/robotwin-doc
+site_name: RoboTwin 2.0 Offical Document
+repo_url: https://github.com/RoboTwin-Platform/doc
 edit_uri: edit/main/docs/
-site_author: SZU Feiyue Team
-copyright: 'Copyright &copy; 2024 SZU Feiyue Team'
+site_author: RoboTwin Team
+copyright: 'Copyright &copy; 2025 RoboTwin Team'
 
 site_url: https://RoboTwin-Platform.github.io/doc/
 use_directory_urls: false
@@ -10,11 +10,27 @@ extra:
   path_prefix: /doc
 
 nav:
-  - 首页:
+  - Home:
     - index.md
-    - 编写委员会: main/committee.md
-    - 友链: main/friendlink.md
-  - Tasks:
+    - Contributions: main/contributions.md
+  - Usage:
+    - usage/index.md
+    - Installation: usage/robotwin-install.md
+    - Collect Data: usage/collect-data.md
+    - Domain Randomization: usage/collect-data.md
+    - Configurations: usage/configurations.md
+    - Expert Code Gen (Novel Tasks): usage/expert-code-gen.md
+    - Object Annotation: usage/expert-code-gen.md
+    - Policies:
+      - DP: usage/DP.md
+      - ACT: usage/ACT.md
+      - DP3: usage/DP3.md
+      - RDT: usage/RDT.md
+      - Pi0: usage/Pi0.md
+      - DexVLA: usage/DexVLA.md
+      - TinyVLA: usage/TinyVLA.md
+    - Deploy Your Policy: usage/deploy-your-policy.md
+  - 50 Bimanual Tasks:
     - tasks/index.md
     - Adjust Bottle: tasks/adjust_bottle.md
     - Beat Block Hammer: tasks/beat_block_hammer.md
@@ -66,7 +82,7 @@ nav:
     - Move Pillbottle Pad: tasks/move_pillbottle_pad.md
     - Place Burger Fries: tasks/place_burger_fries.md
     - Press Stapler: tasks/press_stapler.md
-  - Objects:
+  - Objects (RoboTwin-OD):
     - objects/index.md
     - 001_Bottle: objects/001_bottle.md
     - 002_Bowl: objects/002_bowl.md

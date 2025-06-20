@@ -1,27 +1,7 @@
-# 留学板块（这里预留给以后做总结版块）
+# RoboTwin-OD (RoboTwin Object Dataset)
 
-> 使用电脑端食用更佳
+<img src="../assets/robotwin-od.png" alt="描述信息" style="display: block; margin: auto; width: 100%;">
 
-## 信息与技术工程类（计软+电信+机电）
-- [计算机与软件学院](./CompSci/index.md)
-- [电子与信息工程学院](./CompSci/index.md)
-- [机电与控制学院](./CompSci/index.md)
+This is a document containing images and ID information for all objects in RoboTwin-OD, excluding those from the Objaverse dataset.
 
-## 教育与心理发展类（教育+心理+体育）: 
-
-## 人文与语言传播类（文院+外院+传院）: 
-
-## 政法与社会治理类（法院+马院+政管）: 
-
-## 艺术与国际交流类（艺院+国际交流+东京）:
-
-## 建筑与城市规划类（土木+城规）:
-
-## 管理与经济类（管院+经院+金科）: 
-- [管理学院](./Management/index.md)
-- [经济学院](./Economics/index.md)
-- [金融科技学院](./FinTech/index.md)
-
-## 基础理学科类（数院+物光+化院+生科+高研院）: 
-
-## 医学与材料类（医学+材料）:
+To enhance both manipulation capability and visual understanding, we construct a large-scale object dataset with rich semantic annotations, called <b>RoboTwin-OD</b>, covering 147 categories and 731 diverse objects. Specifically, this includes 534 instances across 111 categories with custom-generated and optimized meshes, 153 objects from 27 categories in Objaverse, and 44 articulated object instances from 9 categories in SAPIEN PartNet-Mobility. Objects from all sources, including Objaverse, are used for cluttered scene construction, with Objaverse specifically serving to further increase the visual and semantic diversity of distractor objects. Additionally, we develop a comprehensive surface and background texture library using generative AI and human-in-the-loop verification to ensure both diversity and realism. The dataset is available at <a href="https://huggingface.co/datasets/TianxingChen/RoboTwin2.0/tree/main/objects">https://huggingface.co/datasets/TianxingChen/RoboTwin2.0/tree/main/objects</a>.
