@@ -2,11 +2,11 @@
 <html lang="en">
 <body>
     <div style="display: flex;">
-        <video src="./task_video_clean/scan_object/aloha-agilex_head.mp4" controls loop muted autoplay style="width: 25%;"></video>
-        <video src="./task_video_clean/scan_object/franka-panda_head.mp4" controls loop muted autoplay style="width: 25%;"></video>
-        <video src="./task_video_clean/scan_object/ARX-X5_head.mp4" controls loop muted autoplay style="width: 25%;"></video>
+        <video src="./task_video_clean/scan_object/aloha-agilex_head.mp4" controls loop muted autoplay style="width: 25.0%;"></video>
+        <video src="./task_video_clean/scan_object/franka-panda_head.mp4" controls loop muted autoplay style="width: 25.0%;"></video>
+        <video src="./task_video_clean/scan_object/ARX-X5_head.mp4" controls loop muted autoplay style="width: 25.0%;"></video>
         
-        <video src="./task_video_clean/scan_object/ur5-wsg_head.mp4" controls loop muted autoplay style="width: 25%;"></video>
+        <video src="./task_video_clean/scan_object/ur5-wsg_head.mp4" controls loop muted autoplay style="width: 25.0%;"></video>
     </div>
     <div style="display: flex;">
         <video src="./task_video_clean/scan_object/aloha-agilex_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
@@ -32,7 +32,7 @@
         <tbody>
             <tr style="background:white;">
                 <td style="border:1px solid #ccc;padding:6px 14px;color:black;">Success Rate</td>
-                <td style="border:1px solid #ccc;padding:6px 14px;color:black;">24%</td>
+                <td style="border:1px solid #ccc;padding:6px 14px;color:black;">4%</td>
                 <td style="border:1px solid #ccc;padding:6px 14px;color:black;">45%</td>
                 <td style="border:1px solid #ccc;padding:6px 14px;color:black;">26%</td>
                 <td style="border:1px solid #ccc;padding:6px 14px;color:black;">0%</td>

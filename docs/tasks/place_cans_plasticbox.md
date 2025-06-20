@@ -2,11 +2,11 @@
 <html lang="en">
 <body>
     <div style="display: flex;">
-        <video src="./task_video_clean/place_cans_plasticbox/aloha-agilex_head.mp4" controls loop muted autoplay style="width: 25%;"></video>
-        <video src="./task_video_clean/place_cans_plasticbox/franka-panda_head.mp4" controls loop muted autoplay style="width: 25%;"></video>
-        <video src="./task_video_clean/place_cans_plasticbox/ARX-X5_head.mp4" controls loop muted autoplay style="width: 25%;"></video>
+        <video src="./task_video_clean/place_cans_plasticbox/aloha-agilex_head.mp4" controls loop muted autoplay style="width: 25.0%;"></video>
+        <video src="./task_video_clean/place_cans_plasticbox/franka-panda_head.mp4" controls loop muted autoplay style="width: 25.0%;"></video>
+        <video src="./task_video_clean/place_cans_plasticbox/ARX-X5_head.mp4" controls loop muted autoplay style="width: 25.0%;"></video>
         
-        <video src="./task_video_clean/place_cans_plasticbox/ur5-wsg_head.mp4" controls loop muted autoplay style="width: 25%;"></video>
+        <video src="./task_video_clean/place_cans_plasticbox/ur5-wsg_head.mp4" controls loop muted autoplay style="width: 25.0%;"></video>
     </div>
     <div style="display: flex;">
         <video src="./task_video_clean/place_cans_plasticbox/aloha-agilex_world.mp4" controls loop muted autoplay style="width: 25%;"></video>

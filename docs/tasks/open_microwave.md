@@ -2,11 +2,11 @@
 <html lang="en">
 <body>
     <div style="display: flex;">
-        <video src="./task_video_clean/open_microwave/aloha-agilex_head.mp4" controls loop muted autoplay style="width: 25%;"></video>
-        <video src="./task_video_clean/open_microwave/franka-panda_head.mp4" controls loop muted autoplay style="width: 25%;"></video>
-        <video src="./task_video_clean/open_microwave/ARX-X5_head.mp4" controls loop muted autoplay style="width: 25%;"></video>
-        <video src="./task_video_clean/open_microwave/piper_head.mp4" controls loop muted autoplay style="width: 25%;"></video>
-        <video src="./task_video_clean/open_microwave/ur5-wsg_head.mp4" controls loop muted autoplay style="width: 25%;"></video>
+        <video src="./task_video_clean/open_microwave/aloha-agilex_head.mp4" controls loop muted autoplay style="width: 20.0%;"></video>
+        <video src="./task_video_clean/open_microwave/franka-panda_head.mp4" controls loop muted autoplay style="width: 20.0%;"></video>
+        <video src="./task_video_clean/open_microwave/ARX-X5_head.mp4" controls loop muted autoplay style="width: 20.0%;"></video>
+        <video src="./task_video_clean/open_microwave/piper_head.mp4" controls loop muted autoplay style="width: 20.0%;"></video>
+        <video src="./task_video_clean/open_microwave/ur5-wsg_head.mp4" controls loop muted autoplay style="width: 20.0%;"></video>
     </div>
     <div style="display: flex;">
         <video src="./task_video_clean/open_microwave/aloha-agilex_world.mp4" controls loop muted autoplay style="width: 25%;"></video>

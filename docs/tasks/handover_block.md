@@ -2,10 +2,10 @@
 <html lang="en">
 <body>
     <div style="display: flex;">
-        <video src="./task_video_clean/handover_block/aloha-agilex_head.mp4" controls loop muted autoplay style="width: 25%;"></video>
+        <video src="./task_video_clean/handover_block/aloha-agilex_head.mp4" controls loop muted autoplay style="width: 33.333333333333336%;"></video>
         
-        <video src="./task_video_clean/handover_block/ARX-X5_head.mp4" controls loop muted autoplay style="width: 25%;"></video>
-        <video src="./task_video_clean/handover_block/piper_head.mp4" controls loop muted autoplay style="width: 25%;"></video>
+        <video src="./task_video_clean/handover_block/ARX-X5_head.mp4" controls loop muted autoplay style="width: 33.333333333333336%;"></video>
+        <video src="./task_video_clean/handover_block/piper_head.mp4" controls loop muted autoplay style="width: 33.333333333333336%;"></video>
         
     </div>
     <div style="display: flex;">

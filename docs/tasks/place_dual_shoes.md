@@ -2,11 +2,11 @@
 <html lang="en">
 <body>
     <div style="display: flex;">
-        <video src="./task_video_clean/place_dual_shoes/aloha-agilex_head.mp4" controls loop muted autoplay style="width: 25%;"></video>
-        <video src="./task_video_clean/place_dual_shoes/franka-panda_head.mp4" controls loop muted autoplay style="width: 25%;"></video>
-        <video src="./task_video_clean/place_dual_shoes/ARX-X5_head.mp4" controls loop muted autoplay style="width: 25%;"></video>
-        <video src="./task_video_clean/place_dual_shoes/piper_head.mp4" controls loop muted autoplay style="width: 25%;"></video>
-        <video src="./task_video_clean/place_dual_shoes/ur5-wsg_head.mp4" controls loop muted autoplay style="width: 25%;"></video>
+        <video src="./task_video_clean/place_dual_shoes/aloha-agilex_head.mp4" controls loop muted autoplay style="width: 20.0%;"></video>
+        <video src="./task_video_clean/place_dual_shoes/franka-panda_head.mp4" controls loop muted autoplay style="width: 20.0%;"></video>
+        <video src="./task_video_clean/place_dual_shoes/ARX-X5_head.mp4" controls loop muted autoplay style="width: 20.0%;"></video>
+        <video src="./task_video_clean/place_dual_shoes/piper_head.mp4" controls loop muted autoplay style="width: 20.0%;"></video>
+        <video src="./task_video_clean/place_dual_shoes/ur5-wsg_head.mp4" controls loop muted autoplay style="width: 20.0%;"></video>
     </div>
     <div style="display: flex;">
         <video src="./task_video_clean/place_dual_shoes/aloha-agilex_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
