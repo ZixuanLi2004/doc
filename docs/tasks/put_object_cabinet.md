@@ -9,9 +9,9 @@
         
     </div>
     <div style="display: flex;">
-        <video src="./task_video_clean/put_object_cabinet/aloha-agilex_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
-        <video src="./task_video_clean/put_object_cabinet/franka-panda_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
-        <video src="./task_video_clean/put_object_cabinet/ARX-X5_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
+        <video src="./task_video_clean/put_object_cabinet/aloha-agilex_world.mp4" controls loop muted autoplay style="width: 33.333333333333336%;"></video>
+        <video src="./task_video_clean/put_object_cabinet/franka-panda_world.mp4" controls loop muted autoplay style="width: 33.333333333333336%;"></video>
+        <video src="./task_video_clean/put_object_cabinet/ARX-X5_world.mp4" controls loop muted autoplay style="width: 33.333333333333336%;"></video>
         
         
     </div>

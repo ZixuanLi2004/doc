@@ -9,10 +9,10 @@
         
     </div>
     <div style="display: flex;">
-        <video src="./task_video_clean/put_bottles_dustbin/aloha-agilex_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
+        <video src="./task_video_clean/put_bottles_dustbin/aloha-agilex_world.mp4" controls loop muted autoplay style="width: 33.333333333333336%;"></video>
         
-        <video src="./task_video_clean/put_bottles_dustbin/ARX-X5_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
-        <video src="./task_video_clean/put_bottles_dustbin/piper_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
+        <video src="./task_video_clean/put_bottles_dustbin/ARX-X5_world.mp4" controls loop muted autoplay style="width: 33.333333333333336%;"></video>
+        <video src="./task_video_clean/put_bottles_dustbin/piper_world.mp4" controls loop muted autoplay style="width: 33.333333333333336%;"></video>
         
     </div>
     <br><b>Description</b>: Use arms to grab the bottles and put them into the dustbin to the left of the table.<br>

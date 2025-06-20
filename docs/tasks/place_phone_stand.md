@@ -9,11 +9,11 @@
         <video src="./task_video_clean/place_phone_stand/ur5-wsg_head.mp4" controls loop muted autoplay style="width: 20.0%;"></video>
     </div>
     <div style="display: flex;">
-        <video src="./task_video_clean/place_phone_stand/aloha-agilex_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
-        <video src="./task_video_clean/place_phone_stand/franka-panda_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
-        <video src="./task_video_clean/place_phone_stand/ARX-X5_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
-        <video src="./task_video_clean/place_phone_stand/piper_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
-        <video src="./task_video_clean/place_phone_stand/ur5-wsg_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
+        <video src="./task_video_clean/place_phone_stand/aloha-agilex_world.mp4" controls loop muted autoplay style="width: 20.0%;"></video>
+        <video src="./task_video_clean/place_phone_stand/franka-panda_world.mp4" controls loop muted autoplay style="width: 20.0%;"></video>
+        <video src="./task_video_clean/place_phone_stand/ARX-X5_world.mp4" controls loop muted autoplay style="width: 20.0%;"></video>
+        <video src="./task_video_clean/place_phone_stand/piper_world.mp4" controls loop muted autoplay style="width: 20.0%;"></video>
+        <video src="./task_video_clean/place_phone_stand/ur5-wsg_world.mp4" controls loop muted autoplay style="width: 20.0%;"></video>
     </div>
     <br><b>Description</b>: Pick up the phone and put it on the phone stand.<br>
     <b>Average Steps</b>: 130 (Aloha-AgileX, save_freq=15)<br>

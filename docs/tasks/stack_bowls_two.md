@@ -9,11 +9,11 @@
         <video src="./task_video_clean/stack_bowls_two/ur5-wsg_head.mp4" controls loop muted autoplay style="width: 20.0%;"></video>
     </div>
     <div style="display: flex;">
-        <video src="./task_video_clean/stack_bowls_two/aloha-agilex_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
-        <video src="./task_video_clean/stack_bowls_two/franka-panda_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
-        <video src="./task_video_clean/stack_bowls_two/ARX-X5_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
-        <video src="./task_video_clean/stack_bowls_two/piper_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
-        <video src="./task_video_clean/stack_bowls_two/ur5-wsg_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
+        <video src="./task_video_clean/stack_bowls_two/aloha-agilex_world.mp4" controls loop muted autoplay style="width: 20.0%;"></video>
+        <video src="./task_video_clean/stack_bowls_two/franka-panda_world.mp4" controls loop muted autoplay style="width: 20.0%;"></video>
+        <video src="./task_video_clean/stack_bowls_two/ARX-X5_world.mp4" controls loop muted autoplay style="width: 20.0%;"></video>
+        <video src="./task_video_clean/stack_bowls_two/piper_world.mp4" controls loop muted autoplay style="width: 20.0%;"></video>
+        <video src="./task_video_clean/stack_bowls_two/ur5-wsg_world.mp4" controls loop muted autoplay style="width: 20.0%;"></video>
     </div>
     <br><b>Description</b>: Stack the two bowls on top of each other.<br>
     <b>Average Steps</b>: 313 (Aloha-AgileX, save_freq=15)<br>

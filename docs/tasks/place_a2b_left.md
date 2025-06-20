@@ -9,11 +9,11 @@
         <video src="./task_video_clean/place_a2b_left/ur5-wsg_head.mp4" controls loop muted autoplay style="width: 20.0%;"></video>
     </div>
     <div style="display: flex;">
-        <video src="./task_video_clean/place_a2b_left/aloha-agilex_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
-        <video src="./task_video_clean/place_a2b_left/franka-panda_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
-        <video src="./task_video_clean/place_a2b_left/ARX-X5_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
-        <video src="./task_video_clean/place_a2b_left/piper_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
-        <video src="./task_video_clean/place_a2b_left/ur5-wsg_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
+        <video src="./task_video_clean/place_a2b_left/aloha-agilex_world.mp4" controls loop muted autoplay style="width: 20.0%;"></video>
+        <video src="./task_video_clean/place_a2b_left/franka-panda_world.mp4" controls loop muted autoplay style="width: 20.0%;"></video>
+        <video src="./task_video_clean/place_a2b_left/ARX-X5_world.mp4" controls loop muted autoplay style="width: 20.0%;"></video>
+        <video src="./task_video_clean/place_a2b_left/piper_world.mp4" controls loop muted autoplay style="width: 20.0%;"></video>
+        <video src="./task_video_clean/place_a2b_left/ur5-wsg_world.mp4" controls loop muted autoplay style="width: 20.0%;"></video>
     </div>
     <br><b>Description</b>: Use appropriate arm to place object A on the left of object B.<br>
     <b>Average Steps</b>: 155 (Aloha-AgileX, save_freq=15)<br>

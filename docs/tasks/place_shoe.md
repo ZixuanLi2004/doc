@@ -9,11 +9,11 @@
         <video src="./task_video_clean/place_shoe/ur5-wsg_head.mp4" controls loop muted autoplay style="width: 20.0%;"></video>
     </div>
     <div style="display: flex;">
-        <video src="./task_video_clean/place_shoe/aloha-agilex_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
-        <video src="./task_video_clean/place_shoe/franka-panda_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
-        <video src="./task_video_clean/place_shoe/ARX-X5_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
-        <video src="./task_video_clean/place_shoe/piper_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
-        <video src="./task_video_clean/place_shoe/ur5-wsg_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
+        <video src="./task_video_clean/place_shoe/aloha-agilex_world.mp4" controls loop muted autoplay style="width: 20.0%;"></video>
+        <video src="./task_video_clean/place_shoe/franka-panda_world.mp4" controls loop muted autoplay style="width: 20.0%;"></video>
+        <video src="./task_video_clean/place_shoe/ARX-X5_world.mp4" controls loop muted autoplay style="width: 20.0%;"></video>
+        <video src="./task_video_clean/place_shoe/piper_world.mp4" controls loop muted autoplay style="width: 20.0%;"></video>
+        <video src="./task_video_clean/place_shoe/ur5-wsg_world.mp4" controls loop muted autoplay style="width: 20.0%;"></video>
     </div>
     <br><b>Description</b>: Use one arm to grab the shoe from the table and place it on the mat.<br>
     <b>Average Steps</b>: 178 (Aloha-AgileX, save_freq=15)<br>

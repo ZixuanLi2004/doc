@@ -9,11 +9,11 @@
         <video src="./task_video_clean/hanging_mug/ur5-wsg_head.mp4" controls loop muted autoplay style="width: 25.0%;"></video>
     </div>
     <div style="display: flex;">
-        <video src="./task_video_clean/hanging_mug/aloha-agilex_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
-        <video src="./task_video_clean/hanging_mug/franka-panda_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
-        <video src="./task_video_clean/hanging_mug/ARX-X5_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
+        <video src="./task_video_clean/hanging_mug/aloha-agilex_world.mp4" controls loop muted autoplay style="width: 25.0%;"></video>
+        <video src="./task_video_clean/hanging_mug/franka-panda_world.mp4" controls loop muted autoplay style="width: 25.0%;"></video>
+        <video src="./task_video_clean/hanging_mug/ARX-X5_world.mp4" controls loop muted autoplay style="width: 25.0%;"></video>
         
-        <video src="./task_video_clean/hanging_mug/ur5-wsg_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
+        <video src="./task_video_clean/hanging_mug/ur5-wsg_world.mp4" controls loop muted autoplay style="width: 25.0%;"></video>
     </div>
     <br><b>Description</b>: Use left arm to pick the mug on the table, rotate the mug and put the mug down in the middle of the table, use the right arm to pick the mug and hang it onto the rack.<br>
     <b>Average Steps</b>: 340 (Aloha-AgileX, save_freq=15)<br>

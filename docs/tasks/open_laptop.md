@@ -9,11 +9,11 @@
         <video src="./task_video_clean/open_laptop/ur5-wsg_head.mp4" controls loop muted autoplay style="width: 20.0%;"></video>
     </div>
     <div style="display: flex;">
-        <video src="./task_video_clean/open_laptop/aloha-agilex_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
-        <video src="./task_video_clean/open_laptop/franka-panda_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
-        <video src="./task_video_clean/open_laptop/ARX-X5_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
-        <video src="./task_video_clean/open_laptop/piper_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
-        <video src="./task_video_clean/open_laptop/ur5-wsg_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
+        <video src="./task_video_clean/open_laptop/aloha-agilex_world.mp4" controls loop muted autoplay style="width: 20.0%;"></video>
+        <video src="./task_video_clean/open_laptop/franka-panda_world.mp4" controls loop muted autoplay style="width: 20.0%;"></video>
+        <video src="./task_video_clean/open_laptop/ARX-X5_world.mp4" controls loop muted autoplay style="width: 20.0%;"></video>
+        <video src="./task_video_clean/open_laptop/piper_world.mp4" controls loop muted autoplay style="width: 20.0%;"></video>
+        <video src="./task_video_clean/open_laptop/ur5-wsg_world.mp4" controls loop muted autoplay style="width: 20.0%;"></video>
     </div>
     <br><b>Description</b>: Use one arm to open the laptop.<br>
     <b>Average Steps</b>: 258 (Aloha-AgileX, save_freq=15)<br>

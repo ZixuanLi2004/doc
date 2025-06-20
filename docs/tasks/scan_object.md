@@ -9,11 +9,11 @@
         <video src="./task_video_clean/scan_object/ur5-wsg_head.mp4" controls loop muted autoplay style="width: 25.0%;"></video>
     </div>
     <div style="display: flex;">
-        <video src="./task_video_clean/scan_object/aloha-agilex_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
-        <video src="./task_video_clean/scan_object/franka-panda_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
-        <video src="./task_video_clean/scan_object/ARX-X5_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
+        <video src="./task_video_clean/scan_object/aloha-agilex_world.mp4" controls loop muted autoplay style="width: 25.0%;"></video>
+        <video src="./task_video_clean/scan_object/franka-panda_world.mp4" controls loop muted autoplay style="width: 25.0%;"></video>
+        <video src="./task_video_clean/scan_object/ARX-X5_world.mp4" controls loop muted autoplay style="width: 25.0%;"></video>
         
-        <video src="./task_video_clean/scan_object/ur5-wsg_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
+        <video src="./task_video_clean/scan_object/ur5-wsg_world.mp4" controls loop muted autoplay style="width: 25.0%;"></video>
     </div>
     <br><b>Description</b>: Use one arm to pick the scanner and use the other arm to pick the object, and use the scanner to scan the object.<br>
     <b>Average Steps</b>: 170 (Aloha-AgileX, save_freq=15)<br>

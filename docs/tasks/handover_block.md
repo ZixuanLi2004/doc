@@ -9,10 +9,10 @@
         
     </div>
     <div style="display: flex;">
-        <video src="./task_video_clean/handover_block/aloha-agilex_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
+        <video src="./task_video_clean/handover_block/aloha-agilex_world.mp4" controls loop muted autoplay style="width: 33.333333333333336%;"></video>
         
-        <video src="./task_video_clean/handover_block/ARX-X5_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
-        <video src="./task_video_clean/handover_block/piper_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
+        <video src="./task_video_clean/handover_block/ARX-X5_world.mp4" controls loop muted autoplay style="width: 33.333333333333336%;"></video>
+        <video src="./task_video_clean/handover_block/piper_world.mp4" controls loop muted autoplay style="width: 33.333333333333336%;"></video>
         
     </div>
     <br><b>Description</b>: Use the left arm to grasp the red block on the table, handover it to the right arm and place it on the blue pad.<br>

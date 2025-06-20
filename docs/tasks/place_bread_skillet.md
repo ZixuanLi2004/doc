@@ -9,11 +9,11 @@
         <video src="./task_video_clean/place_bread_skillet/ur5-wsg_head.mp4" controls loop muted autoplay style="width: 25.0%;"></video>
     </div>
     <div style="display: flex;">
-        <video src="./task_video_clean/place_bread_skillet/aloha-agilex_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
-        <video src="./task_video_clean/place_bread_skillet/franka-panda_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
-        <video src="./task_video_clean/place_bread_skillet/ARX-X5_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
+        <video src="./task_video_clean/place_bread_skillet/aloha-agilex_world.mp4" controls loop muted autoplay style="width: 25.0%;"></video>
+        <video src="./task_video_clean/place_bread_skillet/franka-panda_world.mp4" controls loop muted autoplay style="width: 25.0%;"></video>
+        <video src="./task_video_clean/place_bread_skillet/ARX-X5_world.mp4" controls loop muted autoplay style="width: 25.0%;"></video>
         
-        <video src="./task_video_clean/place_bread_skillet/ur5-wsg_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
+        <video src="./task_video_clean/place_bread_skillet/ur5-wsg_world.mp4" controls loop muted autoplay style="width: 25.0%;"></video>
     </div>
     <br><b>Description</b>: If there is one bread on the table, use one arm to grab the bread and put it into the skillet.<br>
     <b>Average Steps</b>: 162 (Aloha-AgileX, save_freq=15)<br>

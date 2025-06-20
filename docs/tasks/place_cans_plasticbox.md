@@ -9,11 +9,11 @@
         <video src="./task_video_clean/place_cans_plasticbox/ur5-wsg_head.mp4" controls loop muted autoplay style="width: 25.0%;"></video>
     </div>
     <div style="display: flex;">
-        <video src="./task_video_clean/place_cans_plasticbox/aloha-agilex_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
-        <video src="./task_video_clean/place_cans_plasticbox/franka-panda_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
-        <video src="./task_video_clean/place_cans_plasticbox/ARX-X5_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
+        <video src="./task_video_clean/place_cans_plasticbox/aloha-agilex_world.mp4" controls loop muted autoplay style="width: 25.0%;"></video>
+        <video src="./task_video_clean/place_cans_plasticbox/franka-panda_world.mp4" controls loop muted autoplay style="width: 25.0%;"></video>
+        <video src="./task_video_clean/place_cans_plasticbox/ARX-X5_world.mp4" controls loop muted autoplay style="width: 25.0%;"></video>
         
-        <video src="./task_video_clean/place_cans_plasticbox/ur5-wsg_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
+        <video src="./task_video_clean/place_cans_plasticbox/ur5-wsg_world.mp4" controls loop muted autoplay style="width: 25.0%;"></video>
     </div>
     <br><b>Description</b>: Use dual arm to pick and place cans into plasticbox.<br>
     <b>Average Steps</b>: 289 (Aloha-AgileX, save_freq=15)<br>
