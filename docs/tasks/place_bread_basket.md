@@ -5,12 +5,14 @@
         <video src="./task_video_clean/place_bread_basket/aloha-agilex_head.mp4" controls loop muted autoplay style="width: 25%;"></video>
         <video src="./task_video_clean/place_bread_basket/franka-panda_head.mp4" controls loop muted autoplay style="width: 25%;"></video>
         <video src="./task_video_clean/place_bread_basket/ARX-X5_head.mp4" controls loop muted autoplay style="width: 25%;"></video>
+        <video src="./task_video_clean/place_bread_basket/piper_head.mp4" controls loop muted autoplay style="width: 25%;"></video>
         <video src="./task_video_clean/place_bread_basket/ur5-wsg_head.mp4" controls loop muted autoplay style="width: 25%;"></video>
     </div>
     <div style="display: flex;">
         <video src="./task_video_clean/place_bread_basket/aloha-agilex_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
         <video src="./task_video_clean/place_bread_basket/franka-panda_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
         <video src="./task_video_clean/place_bread_basket/ARX-X5_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
+        <video src="./task_video_clean/place_bread_basket/piper_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
         <video src="./task_video_clean/place_bread_basket/ur5-wsg_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
     </div>
     <br><b>Description</b>: If there is one bread on the table, use one arm to grab the bread and put it in the basket, if there are two breads on the table, use two arms to simultaneously grab up two breads and put them in the basket.<br>

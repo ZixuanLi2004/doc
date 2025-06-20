@@ -5,12 +5,14 @@
         <video src="./task_video_clean/move_pillbottle_pad/aloha-agilex_head.mp4" controls loop muted autoplay style="width: 25%;"></video>
         <video src="./task_video_clean/move_pillbottle_pad/franka-panda_head.mp4" controls loop muted autoplay style="width: 25%;"></video>
         <video src="./task_video_clean/move_pillbottle_pad/ARX-X5_head.mp4" controls loop muted autoplay style="width: 25%;"></video>
+        <video src="./task_video_clean/move_pillbottle_pad/piper_head.mp4" controls loop muted autoplay style="width: 25%;"></video>
         <video src="./task_video_clean/move_pillbottle_pad/ur5-wsg_head.mp4" controls loop muted autoplay style="width: 25%;"></video>
     </div>
     <div style="display: flex;">
         <video src="./task_video_clean/move_pillbottle_pad/aloha-agilex_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
         <video src="./task_video_clean/move_pillbottle_pad/franka-panda_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
         <video src="./task_video_clean/move_pillbottle_pad/ARX-X5_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
+        <video src="./task_video_clean/move_pillbottle_pad/piper_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
         <video src="./task_video_clean/move_pillbottle_pad/ur5-wsg_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
     </div>
     <br><b>Description</b>: Use one arm to pick the pillbottle and place it onto the pad.<br>

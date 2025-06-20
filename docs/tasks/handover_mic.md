@@ -5,12 +5,14 @@
         <video src="./task_video_clean/handover_mic/aloha-agilex_head.mp4" controls loop muted autoplay style="width: 25%;"></video>
         <video src="./task_video_clean/handover_mic/franka-panda_head.mp4" controls loop muted autoplay style="width: 25%;"></video>
         <video src="./task_video_clean/handover_mic/ARX-X5_head.mp4" controls loop muted autoplay style="width: 25%;"></video>
+        <video src="./task_video_clean/handover_mic/piper_head.mp4" controls loop muted autoplay style="width: 25%;"></video>
         <video src="./task_video_clean/handover_mic/ur5-wsg_head.mp4" controls loop muted autoplay style="width: 25%;"></video>
     </div>
     <div style="display: flex;">
         <video src="./task_video_clean/handover_mic/aloha-agilex_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
         <video src="./task_video_clean/handover_mic/franka-panda_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
         <video src="./task_video_clean/handover_mic/ARX-X5_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
+        <video src="./task_video_clean/handover_mic/piper_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
         <video src="./task_video_clean/handover_mic/ur5-wsg_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
     </div>
     <br><b>Description</b>: Use one arm to grasp the microphone on the table and handover it to the other arm.<br>

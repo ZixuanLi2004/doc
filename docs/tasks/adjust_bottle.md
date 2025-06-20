@@ -5,12 +5,14 @@
         <video src="./task_video_clean/adjust_bottle/aloha-agilex_head.mp4" controls loop muted autoplay style="width: 25%;"></video>
         <video src="./task_video_clean/adjust_bottle/franka-panda_head.mp4" controls loop muted autoplay style="width: 25%;"></video>
         <video src="./task_video_clean/adjust_bottle/ARX-X5_head.mp4" controls loop muted autoplay style="width: 25%;"></video>
+        
         <video src="./task_video_clean/adjust_bottle/ur5-wsg_head.mp4" controls loop muted autoplay style="width: 25%;"></video>
     </div>
     <div style="display: flex;">
         <video src="./task_video_clean/adjust_bottle/aloha-agilex_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
         <video src="./task_video_clean/adjust_bottle/franka-panda_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
         <video src="./task_video_clean/adjust_bottle/ARX-X5_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
+        
         <video src="./task_video_clean/adjust_bottle/ur5-wsg_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
     </div>
     <br><b>Description</b>: Pick up the bottle on the table headup with the correct arm.<br>

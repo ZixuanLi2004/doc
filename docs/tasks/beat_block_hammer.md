@@ -5,12 +5,14 @@
         <video src="./task_video_clean/beat_block_hammer/aloha-agilex_head.mp4" controls loop muted autoplay style="width: 25%;"></video>
         <video src="./task_video_clean/beat_block_hammer/franka-panda_head.mp4" controls loop muted autoplay style="width: 25%;"></video>
         <video src="./task_video_clean/beat_block_hammer/ARX-X5_head.mp4" controls loop muted autoplay style="width: 25%;"></video>
+        <video src="./task_video_clean/beat_block_hammer/piper_head.mp4" controls loop muted autoplay style="width: 25%;"></video>
         <video src="./task_video_clean/beat_block_hammer/ur5-wsg_head.mp4" controls loop muted autoplay style="width: 25%;"></video>
     </div>
     <div style="display: flex;">
         <video src="./task_video_clean/beat_block_hammer/aloha-agilex_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
         <video src="./task_video_clean/beat_block_hammer/franka-panda_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
         <video src="./task_video_clean/beat_block_hammer/ARX-X5_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
+        <video src="./task_video_clean/beat_block_hammer/piper_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
         <video src="./task_video_clean/beat_block_hammer/ur5-wsg_world.mp4" controls loop muted autoplay style="width: 25%;"></video>
     </div>
     <br><b>Description</b>: There is a hammer and a block on the table, use the arm to grab the hammer and beat the block.<br>
