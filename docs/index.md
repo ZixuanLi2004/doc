@@ -90,6 +90,17 @@ hr.narrow {margin: 0 10px}
 
 ## Everything about RoboTwin 2.0
 
+<div style="display: flex; justify-content: center; margin-top: 20px;">
+  <video 
+    src="https://robotwin-platform.github.io/RoboTwin2.0_video.mp4" 
+    controls 
+    autoplay 
+    muted 
+    loop 
+    style="width: 100%; height: auto;"
+  ></video>
+</div>
+
 Webpage: [https://robotwin-platform.github.io/](https://robotwin-platform.github.io/)
 
 Paper (arXiv): [RoboTwin 2.0: A Scalable Data Generator and Benchmark with Strong Domain Randomization for Robust Bimanual Robotic Manipulation]()
