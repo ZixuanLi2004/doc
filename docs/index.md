@@ -105,7 +105,7 @@ hr.narrow {margin: 0 10px}
 
 Webpage: [https://robotwin-platform.github.io/](https://robotwin-platform.github.io/)
 
-PDF: [RoboTwin 2.0: A Scalable Data Generator and Benchmark with Strong Domain Randomization for Robust Bimanual Robotic Manipulation](https://robotwin-platform.github.io/pdf)
+PDF: [RoboTwin 2.0: A Scalable Data Generator and Benchmark with Strong Domain Randomization for Robust Bimanual Robotic Manipulation](https://robotwin-platform.github.io/paper.pdf)
 
 Paper (arXiv, Coming Soon): [RoboTwin 2.0: A Scalable Data Generator and Benchmark with Strong Domain Randomization for Robust Bimanual Robotic Manipulation]()
 
