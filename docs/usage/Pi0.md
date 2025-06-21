@@ -66,7 +66,7 @@ Generating the dataset can take some time—about half an hour for 100 sets, so 
 ## note!
 If you don't have enough disk space under the `~/.cache` path, please use the following command to set a different cache directory with sufficient space:
 ```bash
-export LEROBOT_HOME=/path/to/your/cache
+export HF_LEROBOT_HOME=/path/to/your/cache
 ```
 
 This is because generating the `lerobotdataset` will require a large amount of space.And the datasets will be writed into `$LEROBOT_HOME`.
