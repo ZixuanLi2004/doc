@@ -147,3 +147,5 @@ RoboTwin: Dual-Arm Robot Benchmark with Generative Digital Twins (**early versio
   year={2024}
 }
 ```
+## Contact
+Contact [Tianxing Chen](https://tianxingchen.github.io) if you have any questions or suggestions.
