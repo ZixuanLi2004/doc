@@ -15,13 +15,12 @@ nav:
     - Contributions: main/contributions.md
   - Usage:
     - usage/index.md
-    - Installation: usage/robotwin-install.md
+    - Install & Download: usage/robotwin-install.md
     - Collect Data: usage/collect-data.md
-    - Domain Randomization: usage/collect-data.md
+    - Domain Randomization: usage/domain-randomization.md
     - Configurations: usage/configurations.md
-    - Expert Code Gen (Novel Tasks): usage/expert-code-gen.md
-    - Object Annotation: usage/expert-code-gen.md
-    - Policies:
+    - Policies (Env, Train & Eval):
+      - Deploy Your Policy: usage/deploy-your-policy.md
       - DP: usage/DP.md
       - ACT: usage/ACT.md
       - DP3: usage/DP3.md
@@ -29,7 +28,9 @@ nav:
       - Pi0: usage/Pi0.md
       - DexVLA: usage/DexVLA.md
       - TinyVLA: usage/TinyVLA.md
-    - Deploy Your Policy: usage/deploy-your-policy.md
+    - Expert Code Gen (for Novel Task): usage/expert-code-gen.md
+    - API Tutorial: usage/API.md
+    - Object Annotation: usage/object-annotation.md
   - 50 Bimanual Tasks:
     - tasks/index.md
     - Adjust Bottle: tasks/adjust_bottle.md
