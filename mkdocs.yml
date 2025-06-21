@@ -206,6 +206,8 @@ nav:
     - 118_Tooth-Paste: objects/118_tooth-paste.md
     - 119_Mini-Chalkboard: objects/119_mini-chalkboard.md
     - 120_Plant: objects/120_plant.md
+  - Community:
+    - community/index.md
 theme:
   name: material
   palette:
