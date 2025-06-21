@@ -101,9 +101,13 @@ hr.narrow {margin: 0 10px}
   ></video>
 </div>
 
+> <div style="font-size: small"><a href="https://tianxingchen.github.io/">Tianxing Chen</a>, Zanxin Chen, Baijun Chen, Zijian Cai, <a href="https://10-oasis-01.github.io">Yibin Liu</a>, <a href="https://kolakivy.github.io/">Qiwei Liang</a>, Zixuan Li, Xianliang Lin, <a href="https://geyiheng.github.io">Yiheng Ge</a>, Zhenyu Gu, Weiliang Deng, Yubin Guo, Tian Nian, Xuanbing Xie, <a href="https://www.linkedin.com/in/yusen-qin-5b23345b/">Qiangyu Chen</a>, Kailun Su, Tianling Xu, <a href="http://luoping.me/">Guodong Liu</a>, <a href="https://aaron617.github.io/">Mengkang Hu</a>, <a href="https://c7w.tech/about">Huan-ang Gao</a>, Kaixuan Wang, <a href="https://liang-zx.github.io/">Zhixuan Liang</a>, <a href="https://www.linkedin.com/in/yusen-qin-5b23345b/">Yusen Qin</a>, Xiaokang Yang, <a href="http://luoping.me/">Ping Luo</a>, <a href="https://yaomarkmu.github.io/">Yao Mu</a></div>
+
 Webpage: [https://robotwin-platform.github.io/](https://robotwin-platform.github.io/)
 
-Paper (arXiv): [RoboTwin 2.0: A Scalable Data Generator and Benchmark with Strong Domain Randomization for Robust Bimanual Robotic Manipulation]()
+PDF: [RoboTwin 2.0: A Scalable Data Generator and Benchmark with Strong Domain Randomization for Robust Bimanual Robotic Manipulation](https://robotwin-platform.github.io/pdf)
+
+Paper (arXiv, Coming Soon): [RoboTwin 2.0: A Scalable Data Generator and Benchmark with Strong Domain Randomization for Robust Bimanual Robotic Manipulation]()
 
 Github Repo: [http://github.com/robotwin-Platform/RoboTwin](http://github.com/robotwin-Platform/RoboTwin)
 
