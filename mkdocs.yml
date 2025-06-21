@@ -30,6 +30,7 @@ nav:
       - TinyVLA: usage/TinyVLA.md
     - Expert Code Gen (for Novel Task): usage/expert-code-gen.md
     - API Tutorial: usage/API.md
+    - Description Gen (Object & Task): usage/description.md
     - Object Annotation: usage/object-annotation.md
   - 50 Bimanual Tasks:
     - tasks/index.md
@@ -56,6 +57,7 @@ nav:
     - Place A2B Right: tasks/place_a2b_right.md
     - Place Bread Basket: tasks/place_bread_basket.md
     - Place Bread Skillet: tasks/place_bread_skillet.md
+    - Place Burger Fries: tasks/place_burger_fries.md
     - Place Can Basket: tasks/place_can_basket.md
     - Place Cans Plasticbox: tasks/place_cans_plasticbox.md
     - Place Container Plate: tasks/place_container_plate.md
@@ -63,11 +65,12 @@ nav:
     - Place Empty Cup: tasks/place_empty_cup.md
     - Place Fan: tasks/place_fan.md
     - Place Mouse Pad: tasks/place_mouse_pad.md
+    - Place Object Basket: tasks/place_object_basket.md
     - Place Object Scale: tasks/place_object_scale.md
     - Place Object Stand: tasks/place_object_stand.md
     - Place Phone Stand: tasks/place_phone_stand.md
     - Place Shoe: tasks/place_shoe.md
-    - Place Object Basket: tasks/place_object_basket.md
+    - Press Stapler: tasks/press_stapler.md
     - Put Bottles Dustbin: tasks/put_bottles_dustbin.md
     - Put Object Cabinet: tasks/put_object_cabinet.md
     - Rotate QRcode: tasks/rotate_qrcode.md
@@ -81,8 +84,6 @@ nav:
     - Stamp Seal: tasks/stamp_seal.md
     - Turn Switch: tasks/turn_switch.md
     - Move Pillbottle Pad: tasks/move_pillbottle_pad.md
-    - Place Burger Fries: tasks/place_burger_fries.md
-    - Press Stapler: tasks/press_stapler.md
   - Objects (RoboTwin-OD):
     - objects/index.md
     - 001_Bottle: objects/001_bottle.md

@@ -10,6 +10,14 @@ bash collect_data.sh ${task_name} ${task_config} ${gpu_id}
 # Example: bash collect_data.sh beat_block_hammer demo_randomizd 0
 ```
 
+After data collection is completed, the collected data will be stored under `data/${task_name}/${task_config}`.
+
+* Each trajectory's observation and action data are saved in **HDF5 format** in the `data` directory.
+* The corresponding **language instructions** for each trajectory are stored in the `instructions` directory.
+* **Head camera videos** of each trajectory can be found in the `video` directory.
+* The `_traj_data`, `.cache`, `scene_info.json`, and `seed.txt` files are auxiliary outputs generated during the data collection process.
+
+
 All available `task_name` options can be found in the [documentation](https://robotwin-platform.github.io/doc/tasks/index.html).
 The `gpu_id` parameter specifies which GPU to use and should be set to an integer in the range `0` to `N-1`, where `N` is the number of GPUs available on your system.
 
@@ -20,3 +28,6 @@ The success rate of data generation for each embodiment across all tasks can be 
 Our pipeline first explores a set of random seeds (`seeds.txt`) to identify trajectories that can yield successful data collection. It then records fine-grained action trajectories (`_traj_data`) accordingly. Collected videos are available in the `videos` directory.
 
 The entire process is fully automated—just run a single command to get started.
+
+> ⚠️ The `missing pytorch3d` warning can be ignored if 3D data is not required.
+

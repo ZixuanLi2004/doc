@@ -49,7 +49,9 @@ Then, run `script/_install.sh` to install basic envs and CuRobo:
 bash script/_install.sh
 ```
 
-If you encounter any problems, please refer to the [manual installation](#4-manual-installation-only-when-step-1-failed) section.
+If you encounter any problems, please refer to the [manual installation](#4-manual-installation-only-when-step-2-failed) section. If you are not using 3D data, a failed installation of pytorch3d will not affect the functionality of the project.
+
+
 
 ## 3. Download Assert (RoboTwin-OD, Texture Library and Embodiments)
 You can download the assets by running the following command:
