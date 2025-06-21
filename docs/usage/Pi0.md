@@ -32,8 +32,6 @@ Next, locate `mplib` within the `(openpi)` environment:
 ```bash
 uv run where_is_package.py
 ```
-Then, based on the printed output, modify the corresponding `mplib` as needed:
-[Modification Reference](https://github.com/TianxingChen/RoboTwin/blob/main/INSTALLATION.md)
 
 ## 2. Generate RoboTwin Data
 See [RoboTwin Tutorial (Usage Section)](https://robotwin-platform.github.io/doc/usage/collect-data.html) for more details.
