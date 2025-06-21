@@ -1,3 +1,6 @@
-# 微信交流群
+# WeChat Group
 
-![](images/wechat-group.jpg)
+Or contact [Tianxing Chen](tianxingchen.github.io).
+
+
+<img src="images/wechat-group.jpg" alt="description" style="display: block; margin: auto; width: 50%;">
