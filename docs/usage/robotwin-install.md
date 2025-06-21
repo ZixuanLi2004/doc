@@ -25,13 +25,13 @@ Software:
 * Ray tracing: NVIDIA Driver >= 470
 * Denoising (OIDN): NVIDIA Driver >= 520
 
-## 1. Install Vulkan (if not installed)
+## Install Vulkan (if not installed)
 Check `vulkaninfo`
 ```
 sudo apt install libvulkan1 mesa-vulkan-drivers vulkan-tools
 ```
 
-## 2. Basic Env
+## Basic Env
 First, prepare a conda environment.
 ```bash
 conda create -n RoboTwin python=3.10 -y
@@ -53,7 +53,7 @@ If you encounter any problems, please refer to the [manual installation](#4-manu
 
 
 
-## 3. Download Assert (RoboTwin-OD, Texture Library and Embodiments)
+## Download Assert (RoboTwin-OD, Texture Library and Embodiments)
 You can download the assets by running the following command:
 ```
 bash script/_download.sh
@@ -74,7 +74,7 @@ assets
 └── ...
 ```
 
-## 4. Manual Installation (Only when step 2 failed)
+## Manual Installation (Only when step 2 failed)
 1. Install requirements
 ```bash
 pip install -r requirements.txt
