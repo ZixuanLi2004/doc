@@ -23,7 +23,7 @@ This step launches the training process.
 By default, the model is trained for **600 steps**. The `action_dim` parameter defines the dimensionality of the robot’s action space — for example, it is **14** for the `aloha-agilex` embodiment.
 
 ```
-bash train.sh ${task_name} ${expert_data_num} ${seed} ${action_dim} ${gpu_id}
+bash train.sh ${task_name} ${task_config} ${expert_data_num} ${seed} ${action_dim} ${gpu_id}
 ```
 
 ## Eval Policy

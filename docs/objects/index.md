@@ -1,6 +1,6 @@
 # RoboTwin-OD (RoboTwin Object Dataset)
 
-<img src="../assets/robotwin-od.png" alt="描述信息" style="display: block; margin: auto; width: 100%;">
+<img src="../assets/robotwin-od.png" alt="description" style="display: block; margin: auto; width: 100%;">
 
 This is a document containing images and ID information for all objects in RoboTwin-OD, excluding those from the Objaverse dataset.
 

@@ -24,7 +24,7 @@ This step launches the training process.
 By default, the model is trained for **3,000 steps**.
 
 ```
-bash train.sh ${task_name} ${expert_data_num} ${seed} ${gpu_id}
+bash train.sh ${task_name} ${task_config} ${expert_data_num} ${seed} ${gpu_id}
 ```
 
 ## Eval Policy

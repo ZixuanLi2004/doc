@@ -82,11 +82,11 @@ hr.narrow {margin: 0 10px}
   tr:hover {background-color: #ddd;}
 </style>
 
-<img src="./assets/robotwin-text-logo.jpg" alt="描述信息" style="display: block; margin: auto; width: 70%;">
+<img src="./assets/robotwin-text-logo.jpg" alt="description" style="display: block; margin: auto; width: 70%;">
 
 > Here is the official documentation for RoboTwin 2.0, which includes installation and usage instructions for various RoboTwin functionalities, detailed information on the 50 bimanual tasks in RoboTwin 2.0, comprehensive descriptions of the RoboTwin-OD dataset, and guidelines for joining the community.
 
-<img src="./assets/teaser.png" alt="描述信息" style="display: block; margin: auto; width: 100%;">
+<img src="./assets/teaser.png" alt="description" style="display: block; margin: auto; width: 100%;">
 
 ## Everything about RoboTwin 2.0
 

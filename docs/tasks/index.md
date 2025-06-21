@@ -1,6 +1,6 @@
 # 50 RoboTwin 2.0 Tasks
 
-<img src="50-tasks.gif" alt="描述信息" style="display: block; margin: auto; width: 100%;">
+<img src="50-tasks.gif" alt="description" style="display: block; margin: auto; width: 100%;">
 
 This document introduces the 50 bimanual manipulation tasks in RoboTwin 2.0, including task videos, descriptions, average step lengths, involved objects, and success rates across different robot embodiments.
 
