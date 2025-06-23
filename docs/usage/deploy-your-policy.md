@@ -8,13 +8,13 @@ To deploy and evaluate your policy, you need to **modify the following three fil
 
 ---
 
-## 🔧 1. `deploy_policy.yml`
+## 🔧 `deploy_policy.yml`
 
 You are free to **add any parameters** needed in `deploy_policy.yml` to specify your model setup (e.g., checkpoint path, model type, architecture details). The entire YAML content will be passed to `deploy_policy.py` as `usr_args`, which will be available in the `get_model()` function.
 
 ---
 
-## 🖥️ 2. `eval.sh`
+## 🖥️ `eval.sh`
 
 Update the script to pass additional arguments to override default values in `deploy_policy.yml`.
 
@@ -46,41 +46,41 @@ python script/eval_policy.py --config policy/$policy_name/deploy_policy.yml \
 
 ---
 
-## 🧠 3. `deploy_policy.py`
+## 🧠  `deploy_policy.py`
 
 You need to implement the following methods in `deploy_policy.py`:
 
-### 1. `encode_obs(obs: dict) -> dict`
+### `encode_obs(obs: dict) -> dict`
 
 Optional. This function is used to preprocess the raw environment observation (e.g., color channel normalization, reshaping, etc.). If not needed, it can be left unchanged.
 
 ---
 
-### 2. `get_model(usr_args: dict) -> Any`
+### `get_model(usr_args: dict) -> Any`
 
 Required. This function receives the full configuration from `deploy_policy.yml` via `usr_args` and must return the initialized model. You can define your own loading logic here, including parsing checkpoints and network parameters.
 
 ---
 
-### 3. `eval(env, model, observation, instruction) -> Any`
+### `eval(env, model, observation, instruction) -> Any`
 
 Required. The main evaluation loop. Given the current environment instance, model, and observation (as a dictionary), and a natural language `instruction` (string), this function must compute the next action and execute it in the environment.
 
 ---
 
-### 4. `update_obs(obs: dict) -> None`
+### `update_obs(obs: dict) -> None`
 
 Optional. Used to update any internal state of the model or observation buffer. Useful if your model requires a history of frames or a memory-based context.
 
 ---
 
-### 5. `get_action(model, obs: dict) -> Any`
+### `get_action(model, obs: dict) -> Any`
 
 Optional. Given a model and current observation, return the action to be executed. This is useful if action computation is separated from the evaluation loop.
 
 ---
 
-### 6. `reset_model() -> None`
+### `reset_model() -> None`
 
 Optional but **recommended**. This function is called before the evaluation of **each episode**, allowing you to reset model states such as recurrent memory, history buffers, or context encodings.
 

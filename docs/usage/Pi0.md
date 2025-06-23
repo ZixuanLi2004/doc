@@ -32,8 +32,6 @@ Next, locate `mplib` within the `(openpi)` environment:
 ```bash
 uv run where_is_package.py
 ```
-Then, based on the printed output, modify the corresponding `mplib` as needed:
-[Modification Reference](https://github.com/TianxingChen/RoboTwin/blob/main/INSTALLATION.md)
 
 ## 2. Generate RoboTwin Data
 See [RoboTwin Tutorial (Usage Section)](https://robotwin-platform.github.io/doc/usage/collect-data.html) for more details.
@@ -66,7 +64,7 @@ Generating the dataset can take some time—about half an hour for 100 sets, so 
 ## note!
 If you don't have enough disk space under the `~/.cache` path, please use the following command to set a different cache directory with sufficient space:
 ```bash
-export LEROBOT_HOME=/path/to/your/cache
+export HF_LEROBOT_HOME=/path/to/your/cache
 ```
 
 This is because generating the `lerobotdataset` will require a large amount of space.And the datasets will be writed into `$LEROBOT_HOME`.

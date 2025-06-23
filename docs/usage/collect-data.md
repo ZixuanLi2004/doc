@@ -7,7 +7,7 @@ Running the following command will first search for a random seed for the target
 
 ```
 bash collect_data.sh ${task_name} ${task_config} ${gpu_id}
-# Example: bash collect_data.sh beat_block_hammer demo_randomizd 0
+# Example: bash collect_data.sh beat_block_hammer demo_randomized 0
 ```
 
 After data collection is completed, the collected data will be stored under `data/${task_name}/${task_config}`.
@@ -25,7 +25,7 @@ Our data synthesizer enables automated data collection by executing the task scr
 
 The success rate of data generation for each embodiment across all tasks can be found at: [https://robotwin-platform.github.io/doc/tasks/index.html](https://robotwin-platform.github.io/doc/tasks/index.html). Due to the structural limitations of different robotic arms, not all embodiments are capable of completing every task.
 
-Our pipeline first explores a set of random seeds (`seeds.txt`) to identify trajectories that can yield successful data collection. It then records fine-grained action trajectories (`_traj_data`) accordingly. Collected videos are available in the `videos` directory.
+Our pipeline first explores a set of random seeds (`seed.txt`) to identify trajectories that can yield successful data collection. It then records fine-grained action trajectories (`_traj_data`) accordingly. Collected videos are available in the `videos` directory.
 
 The entire process is fully automated—just run a single command to get started.
 
