@@ -56,7 +56,7 @@ If you encounter any problems, please refer to the [manual installation](#4-manu
 ## Download Assert (RoboTwin-OD, Texture Library and Embodiments)
 You can download the assets by running the following command:
 ```
-bash script/_download.sh
+bash script/_download_assets.sh
 ```
 
 The structure of the `assets` folder should be like this:
