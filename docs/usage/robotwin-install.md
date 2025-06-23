@@ -63,7 +63,6 @@ The structure of the `assets` folder should be like this:
 
 ```text
 assets
-├── cluttered_objects
 ├── background_texture
 ├── embodiments
 │   ├── embodiment_1
