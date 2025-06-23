@@ -6,14 +6,14 @@ The API can be used to control one or two robotic arms to perform operations suc
 
 ## Class Structure
 
-- **`self`**: The instance.
+- **`self`**: The task class inherit from `Base_Task`.
 - **`ArmTag`**: A custom type representing a robotic arm. It supports comparison with strings: `ArmTag("left") == "left"` returns `True`. You can obtain the opposite arm using `ArmTag("left").opposite`, i.e., `ArmTag("left").opposite == "right"` returns `True`.
-- **`Actor`**: The object being manipulated. Provides methods to retrieve key points (contact point `contact_point`, functional point `functional_point`, target point `target_point`) and its current global pose.
+- **`Actor`**/**`ArticulationActor`**: The object being manipulated. Provides methods to retrieve key points (contact point `contact_point`, functional point `functional_point`, target point `target_point`) and its current global pose.
 - **`Action`**: A sequence of actions for controlling the arm. You only need to know that it can be executed via the `move()` function.
 
 ---
 
-## API Reference
+## Controlling APIs
 
 ### `move(self, actions_by_arm1: tuple[ArmTag, list[Action]], actions_by_arm2: tuple[ArmTag, list[Action]] = None)`
 
@@ -29,8 +29,8 @@ Executes action sequences on one or both robotic arms simultaneously.
 - All actions must have been pre-generated.
 
 #### Example
+One arm grasps a bottle, the other moves back to avoid interference.
 ```python
-# One arm grasps a bottle, the other moves back to avoid interference
 self.move(
     self.grasp_actor(self.bottle, arm_tag=arm_tag),
     self.back_to_origin(arm_tag=arm_tag.opposite)
@@ -56,8 +56,8 @@ Generates a sequence of actions to pick up the specified `Actor`.
 `(arm_tag, action_list)` containing the grasp actions.
 
 #### Example
+Select appropriate grasp point based on arm_tag and grasp the cup.
 ```python
-# Select appropriate grasp point based on arm_tag and grasp the cup
 self.move(
     self.grasp_actor(
         self.cup, arm_tag=arm_tag,
@@ -98,26 +98,36 @@ Places a currently held object at a specified target pose.
 `(arm_tag, action_list)` containing the place actions.
 
 #### Example
+When stacking one object on top of another (for example, placing blockA on top of blockB).
 ```python
-# Place the cup at the specified pose, aligning functional point 0
+target_pose = self.last_actor.get_functional_point(point_id, "pose")
+# Use this target_pose in place_actor to place the object exactly on top of last_actor at the specified functional point.
 self.move(
     self.place_actor(
-        self.cup, arm_tag=arm_tag,
-        target_pose=target_pose,
-        functional_point_id=0,
-        pre_dis=0.05
+        actor=self.current_actor, # The object to be placed
+        target_pose=target_pose, # The pose acquired from last_actor
+        arm_tag=arm_tag,
+        functional_point_id=0, # Align functional point 0, or specify as needed
+        pre_dis=0.1,
+        dis=0.02,
+	    pre_dis_axis="fp", # Use functional point direction for pre-displacement, if the functional point is used
     )
 )
 ```
 
+Place the actor at actor_pose (already a Pose object).
 ```python
-# Place the fan at a specific pose, aligning it to the world coordinate system's -y axis
 self.move(
     self.place_actor(
-        self.fan, arm_tag=arm_tag, target_pose=target_pose,
-        constrain='align',
-        align_axis=[0, -1, 0],
-        pre_dis=0.04, dis=0.005
+        self.box,
+        target_pose=self.actor_pose, # already a Pose, no need for get_pose()
+        arm_tag=grasp_arm_tag,
+        functional_point_id=0, # functional_point_id can be retrived from the actor list if the actor has functional points
+        pre_dis=0,
+        dis=0,  # set dis to 0 if is_open is False, and the gripper will not open after placing. Set the `dis` to a small value like 0.02 if you want the gripper to open after placing.
+        is_open=False, # if is_open is False, pre_dis and dis will be 0, and the gripper will not open after placing.
+        constrain="free", # if task requires the object to be placed in a specific pose that mentioned in the task description (like "the head of the actor should be toward xxx), you can set constrain to "align", in all of other cases, you should set constrain to "free".
+        pre_dis_axis='fp', # Use functional point direction for pre-displacement, if the functional_point_id is used
     )
 )
 ```
@@ -138,12 +148,13 @@ Moves the end-effector of the specified arm along relative directions and sets i
 `(arm_tag, action_list)` containing the move-by-displacement actions.
 
 #### Example
+Lift the object up by moving relative to current position, you should lift the arm up evrery time after grasping an object to avoid collision.
 ```python
-# Lift the arm slightly to help move objects
 self.move(
     self.move_by_displacement(
         arm_tag=arm_tag,
-        z=0.1, move_axis='world'
+        z=0.07,  # Move 7cm upward
+        move_axis='world'
     )
 )
 ```
@@ -163,6 +174,7 @@ Moves the end-effector of the specified arm to a specific absolute pose.
 `(arm_tag, action_list)` containing the move-to-pose actions.
 
 #### Example
+Move the arm to a specific pose, for example, to place an object in a certain position decided by which arm is placing the object.
 ```python
 target_pose = self.get_arm_pose(arm_tag=arm_tag)
 if arm_tag == 'left':
@@ -238,8 +250,19 @@ Returns the specified arm to its predefined initial position.
 `(arm_tag, action_list)` containing the return-to-origin action.
 
 #### Example
+Place left object while moving right arm back to origin.
 ```python
-self.move(self.back_to_origin(arm_tag=arm_tag))
+move_arm_tag = ArmTag("left")  # Specify which arm is placing the object
+back_arm_tag = ArmTag("right")  # Specify which arm is moving back to origin
+self.move(
+    self.place_actor(
+        actor=self.left_actor,
+        arm_tag=move_arm_tag,
+        target_pose=target_pose,
+        pre_dis_axis="fp",
+    ),
+    self.back_to_origin(arm_tag=back_arm_tag)
+)
 ```
 
 ---
@@ -262,7 +285,7 @@ pose = self.get_arm_pose(ArmTag("left"))
 
 ---
 
-## Methods of the `Actor` Class
+## `Actor` Class APIs
 
 `Actor` is the object being manipulated by the robotic arms. It provides methods to retrieve key points and its current global pose. The `Actor` class has the following data points:
 
@@ -287,6 +310,8 @@ Returns the pose of the `idx`-th orientation point as `[x, y, z, qw, qx, qy, qz]
 
 ### `get_pose(self) -> sapien.Pose`
 Returns the global pose of the object in SAPIEN (`.p` is position, `.q` is orientation)
+
+## `ArticulationActor` Class APIs
 
 If the actor was created with method that contains "urdf"(e.g. `create_rand_sapien_urdf_actor`), it will be a subclass of `Actor` called `ArticulationActor`, with the following additional methods:
 
