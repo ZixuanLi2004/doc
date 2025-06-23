@@ -184,6 +184,3 @@ data_type:
 * The system supports both dual-arm and single-arm setups.
 * Seeds, if used, are located in `task_config/seeds/`.
 
----
-
-Let me know if you'd like this exported into Markdown or embedded directly into your project documentation system (e.g., MkDocs).
