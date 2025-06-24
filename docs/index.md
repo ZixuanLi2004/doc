@@ -84,6 +84,8 @@ hr.narrow {margin: 0 10px}
 
 <img src="./assets/robotwin-text-logo.jpg" alt="description" style="display: block; margin: auto; width: 70%;">
 
+<h3 align="center"><b><a href="https://robotwin-platform.github.io/">Webpage</a> | <a href="https://arxiv.org/pdf/2506.18088">PDF</a> | <a href="https://arxiv.org/abs/2506.18088">arXiv</a> | <a href="http://github.com/robotwin-Platform/RoboTwin">Repo</a></b></h3>
+
 > Here is the official documentation for RoboTwin 2.0, which includes installation and usage instructions for various RoboTwin functionalities, detailed information on the 50 bimanual tasks in RoboTwin 2.0, comprehensive descriptions of the RoboTwin-OD dataset, and guidelines for joining the community.
 
 <img src="./assets/teaser.png" alt="description" style="display: block; margin: auto; width: 100%;">
@@ -101,15 +103,7 @@ hr.narrow {margin: 0 10px}
   ></video>
 </div>
 
-> <div style="font-size: small"><a href="https://tianxingchen.github.io/">Tianxing Chen</a>, Zanxin Chen, Baijun Chen, Zijian Cai, <a href="https://10-oasis-01.github.io">Yibin Liu</a>, <a href="https://kolakivy.github.io/">Qiwei Liang</a>, Zixuan Li, Xianliang Lin, <a href="https://geyiheng.github.io">Yiheng Ge</a>, Zhenyu Gu, Weiliang Deng, Yubin Guo, Tian Nian, Xuanbing Xie, <a href="https://www.linkedin.com/in/yusen-qin-5b23345b/">Qiangyu Chen</a>, Kailun Su, Tianling Xu, Guodong Liu, <a href="https://aaron617.github.io/">Mengkang Hu</a>, <a href="https://c7w.tech/about">Huan-ang Gao</a>, Kaixuan Wang, <a href="https://liang-zx.github.io/">Zhixuan Liang</a>, <a href="https://www.linkedin.com/in/yusen-qin-5b23345b/">Yusen Qin</a>, Xiaokang Yang, <a href="http://luoping.me/">Ping Luo</a>, <a href="https://yaomarkmu.github.io/">Yao Mu</a></div>
-
-Webpage: [https://robotwin-platform.github.io/](https://robotwin-platform.github.io/)
-
-PDF: [RoboTwin 2.0: A Scalable Data Generator and Benchmark with Strong Domain Randomization for Robust Bimanual Robotic Manipulation](https://robotwin-platform.github.io/paper.pdf)
-
-Paper (arXiv, Coming Soon): [RoboTwin 2.0: A Scalable Data Generator and Benchmark with Strong Domain Randomization for Robust Bimanual Robotic Manipulation]()
-
-Github Repo: [http://github.com/robotwin-Platform/RoboTwin](http://github.com/robotwin-Platform/RoboTwin)
+> <div style="font-size: small"><a href="https://tianxingchen.github.io/">Tianxing Chen</a><sup>*</sup>, Zanxin Chen<sup>*</sup>, Baijun Chen<sup>*</sup>, Zijian Cai<sup>*</sup>, <a href="https://10-oasis-01.github.io">Yibin Liu</a><sup>*</sup>, <a href="https://kolakivy.github.io/">Qiwei Liang</a>, Zixuan Li, Xianliang Lin, <a href="https://geyiheng.github.io">Yiheng Ge</a>, Zhenyu Gu, Weiliang Deng, Yubin Guo, Tian Nian, Xuanbing Xie, <a href="https://www.linkedin.com/in/yusen-qin-5b23345b/">Qiangyu Chen</a>, Kailun Su, Tianling Xu, Guodong Liu, <a href="https://aaron617.github.io/">Mengkang Hu</a>, <a href="https://c7w.tech/about">Huan-ang Gao</a>, Kaixuan Wang, <a href="https://liang-zx.github.io/">Zhixuan Liang</a>, <a href="https://www.linkedin.com/in/yusen-qin-5b23345b/">Yusen Qin</a>, Xiaokang Yang, <a href="http://luoping.me/">Ping Luo</a><sup>†</sup>, <a href="https://yaomarkmu.github.io/">Yao Mu</a><sup>†</sup></div>
 
 ## Previous Works
 
@@ -123,7 +117,15 @@ If you find our work useful, please consider citing:
 
 RoboTwin 2.0: A Scalable Data Generator and Benchmark with Strong Domain Randomization for Robust Bimanual Robotic Manipulation
 ```
-Coming Soon !
+@misc{chen2025robotwin20scalabledata,
+      title={RoboTwin 2.0: A Scalable Data Generator and Benchmark with Strong Domain Randomization for Robust Bimanual Robotic Manipulation}, 
+      author={Tianxing Chen and Zanxin Chen and Baijun Chen and Zijian Cai and Yibin Liu and Qiwei Liang and Zixuan Li and Xianliang Lin and Yiheng Ge and Zhenyu Gu and Weiliang Deng and Yubin Guo and Tian Nian and Xuanbing Xie and Qiangyu Chen and Kailun Su and Tianling Xu and Guodong Liu and Mengkang Hu and Huan-ang Gao and Kaixuan Wang and Zhixuan Liang and Yusen Qin and Xiaokang Yang and Ping Luo and Yao Mu},
+      year={2025},
+      eprint={2506.18088},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2506.18088}, 
+}
 ```
 
 RoboTwin: Dual-Arm Robot Benchmark with Generative Digital Twins, accepted to <i style="color: red; display: inline;"><b>CVPR 2025 (Highlight)</b></i>
