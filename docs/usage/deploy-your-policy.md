@@ -2,9 +2,9 @@
 
 To deploy and evaluate your policy, you need to **modify the following three files**:
 
-* `eval.sh`
-* `deploy_policy.yml`
-* `deploy_policy.py`
+* `eval.sh`: [eval.sh demo](https://github.com/RoboTwin-Platform/RoboTwin/blob/main/policy/Your_Policy/eval.sh)
+* `deploy_policy.yml`: [deploy_policy.yml demo](https://github.com/RoboTwin-Platform/RoboTwin/blob/main/policy/Your_Policy/deploy_policy.yml)
+* `deploy_policy.py`: [deploy_policy.py demo](https://github.com/RoboTwin-Platform/RoboTwin/blob/main/policy/Your_Policy/deploy_policy.py)
 
 ---
 
