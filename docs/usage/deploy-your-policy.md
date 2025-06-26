@@ -6,6 +6,12 @@ To deploy and evaluate your policy, you need to **modify the following three fil
 * `deploy_policy.yml`: [deploy_policy.yml demo](https://github.com/RoboTwin-Platform/RoboTwin/blob/main/policy/Your_Policy/deploy_policy.yml)
 * `deploy_policy.py`: [deploy_policy.py demo](https://github.com/RoboTwin-Platform/RoboTwin/blob/main/policy/Your_Policy/deploy_policy.py)
 
+In `deploy_policy.py`, the following components are defined: `get_model` for loading the policy model, `encode_obs` for observation processing (modification may not be necessary), and `get_action` along with the control loop that handles observation acquisition and action execution.
+
+The `deploy_policy.yml` file specifies the input parameters, which are eventually passed into the `get_model` function as `usr_args` to assist in locating, defining, and loading your model.
+
+In `eval.sh`, the parameters specified after `overrides` can be used to overwrite those in `deploy_policy.yml`, allowing you to specify different settings without manually modifying the YAML file each time.
+
 ---
 
 ## 🔧 `deploy_policy.yml`
