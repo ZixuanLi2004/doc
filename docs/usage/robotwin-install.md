@@ -54,7 +54,7 @@ If you encounter any problems, please refer to the [manual installation](#manual
 
 
 ## Download Assert (RoboTwin-OD, Texture Library and Embodiments)
-You can download the assets by running the following command:
+To download the assets, run the following command. If you encounter any rate-limit issues, please log in to your Hugging Face account by running `huggingface-cli login`:
 ```
 bash script/_download_assets.sh
 ```
