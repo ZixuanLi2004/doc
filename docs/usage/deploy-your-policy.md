@@ -86,6 +86,12 @@ Optional but **recommended**. This function is called before the evaluation of *
 
 ---
 
+## ✔️ Run `eval.sh`
+
+```
+bash eval.sh ...(input parameters you define)
+```
+
 ## 📌 Notes
 
 * The variable `instruction` is a string containing the language command describing the task. You can choose how (or whether) to use it.
