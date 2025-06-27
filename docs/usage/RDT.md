@@ -74,9 +74,6 @@ Example folder structure:
 ```
 training_data/${model_name}
 ├── ${task_1}
-│   ├── instructions
-│   │   ├── lang_embed_0.pt
-│   │   ├── ...
 │   ├── episode_0
 |   |   |── episode_0.hdf5
 |   |   |-- instructions

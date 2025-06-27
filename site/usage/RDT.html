@@ -33,17 +33,14 @@
 <span class=linenos data-linenos="3 "></span><span class=c1># bash generate.sh RDT_demo_randomized</span>
 </code></pre></div></p> <p>This will create a folder named <code>\${model_name}</code> under training_data and a configuration file <code>\${model_name}.yml</code> under model_config.</p> <h3 id=41-41-prepare-data>4.1 4.1 Prepare Data<a class=headerlink href=#41-41-prepare-data title="Permanent link">&para;</a></h3> <p>Copy all the data you wish to use for training from <code>processed_data</code> into <code>training_data/${model_name}</code>. If you have multiple tasks with different data, simply copy them in the same way.</p> <p>Example folder structure: <div class=highlight><pre><span></span><code><span class=linenos data-linenos=" 1 "></span>training_data/${model_name}
 <span class=linenos data-linenos=" 2 "></span>├── ${task_1}
-<span class=linenos data-linenos=" 3 "></span>│   ├── instructions
-<span class=linenos data-linenos=" 4 "></span>│   │   ├── lang_embed_0.pt
-<span class=linenos data-linenos=" 5 "></span>│   │   ├── ...
-<span class=linenos data-linenos=" 6 "></span>│   ├── episode_0
-<span class=linenos data-linenos=" 7 "></span>|   |   |── episode_0.hdf5
-<span class=linenos data-linenos=" 8 "></span>|   |   |-- instructions
-<span class=linenos data-linenos=" 9 "></span>|   │   │   ├── lang_embed_0.pt
-<span class=linenos data-linenos="10 "></span>|   │   │   ├── ...
-<span class=linenos data-linenos="11 "></span>├── ${task_2}
-<span class=linenos data-linenos="12 "></span>│   ├── ...
-<span class=linenos data-linenos="13 "></span>├── ...
+<span class=linenos data-linenos=" 3 "></span>│   ├── episode_0
+<span class=linenos data-linenos=" 4 "></span>|   |   |── episode_0.hdf5
+<span class=linenos data-linenos=" 5 "></span>|   |   |-- instructions
+<span class=linenos data-linenos=" 6 "></span>|   │   │   ├── lang_embed_0.pt
+<span class=linenos data-linenos=" 7 "></span>|   │   │   ├── ...
+<span class=linenos data-linenos=" 8 "></span>├── ${task_2}
+<span class=linenos data-linenos=" 9 "></span>│   ├── ...
+<span class=linenos data-linenos="10 "></span>├── ...
 </code></pre></div></p> <h3 id=42-42-modify-training-config>4.2 4.2 Modify Training Config<a class=headerlink href=#42-42-modify-training-config title="Permanent link">&para;</a></h3> <p>In <code>model_config/${model_name}.yml</code>, you need to manually set the GPU to be used (modify <code>cuda_visible_device</code>). For a single GPU, try format like <code>0</code> to set GPU 0. For multi-GPU usage, try format like <code>0,1,4</code>. You can flexibly modify other parameters.</p> <h2 id=5-5-finetune-model>5. 5. Finetune model<a class=headerlink href=#5-5-finetune-model title="Permanent link">&para;</a></h2> <p>Once the training parameters are set, you can start training with: <div class=highlight><pre><span></span><code><span class=linenos data-linenos="1 "></span>bash<span class=w> </span>finetune.sh<span class=w> </span><span class=si>${</span><span class=nv>model_name</span><span class=si>}</span>
 <span class=linenos data-linenos="2 "></span><span class=c1># bash finetune.sh RDT_demo_randomized</span>
 </code></pre></div> <strong>Note!</strong></p> <p>If you fine-tune the model using a single GPU, DeepSpeed will not save <code>pytorch_model/mp_rank_00_model_states.pt</code>. If you wish to continue training based on the results of a single-GPU trained model, please set <code>pretrained_model_name_or_path</code> to something like <code>./checkpoints/${model_name}/checkpoint-${ckpt_id}</code>. </p> <p>This will use the pretrain pipeline to import the model, which is the same import structure as the default <code>../weights/RDT/rdt-1b</code>.</p> <h2 id=6-6-eval-on-robotwin>6. 6. Eval on RoboTwin<a class=headerlink href=#6-6-eval-on-robotwin title="Permanent link">&para;</a></h2> <p>The <code>task_config</code> field refers to the <strong>evaluation environment configuration</strong>, while the <code>model_name</code> field refers to the <strong>training data configuration</strong> used during policy learning.</p> <div class=highlight><pre><span></span><code><span class=linenos data-linenos="1 "></span>bash<span class=w> </span>eval.sh<span class=w> </span><span class=si>${</span><span class=nv>task_name</span><span class=si>}</span><span class=w> </span><span class=si>${</span><span class=nv>task_config</span><span class=si>}</span><span class=w> </span><span class=si>${</span><span class=nv>model_name</span><span class=si>}</span><span class=w> </span><span class=si>${</span><span class=nv>checkpoint_id</span><span class=si>}</span><span class=w> </span><span class=si>${</span><span class=nv>seed</span><span class=si>}</span><span class=w> </span><span class=si>${</span><span class=nv>gpu_id</span><span class=si>}</span>
