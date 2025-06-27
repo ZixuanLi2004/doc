@@ -32,6 +32,7 @@ nav:
     - API Tutorial: usage/API.md
     - Description Gen (Object & Task): usage/description.md
     - Object Annotation: usage/object-annotation.md
+    - Configuring New Embodiment: new-embodiment.md
   - 50 Bimanual Tasks:
     - tasks/index.md
     - Adjust Bottle: tasks/adjust_bottle.md
