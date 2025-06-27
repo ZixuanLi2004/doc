@@ -135,7 +135,8 @@ If your GPU memory is insufficient, please set the `fsdp_devices` parameter acco
 Or you can try setting `XLA_PYTHON_CLIENT_PREALLOCATE=false` in `finetune.sh`, it will cost lower gpu memory, but make training speed slower.
 
 The default `batch_size` is 32 in the table below.
-| GPU memory | Model type | GPU num |fsdp_devices | Example GPU |
+
+| GPU memory | Model type | GPU num | fsdp_devices | Example GPU |
 | ----- | ----- | ----- |-----| ----- |
 |  24G | lora | 2 | 2 | 4090(24G)  |
 |  40G | lora | 2 | 2 | A100(40G)  |
