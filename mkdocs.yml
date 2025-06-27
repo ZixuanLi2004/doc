@@ -21,8 +21,8 @@ nav:
     - Configurations: usage/configurations.md
     - Policies (Env, Train & Eval):
       - Deploy Your Policy: usage/deploy-your-policy.md
-      - DP: usage/DP.md
       - ACT: usage/ACT.md
+      - DP: usage/DP.md
       - DP3: usage/DP3.md
       - RDT: usage/RDT.md
       - Pi0: usage/Pi0.md
