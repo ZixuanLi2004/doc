@@ -49,8 +49,9 @@ Then, run `script/_install.sh` to install basic envs and CuRobo:
 bash script/_install.sh
 ```
 
-If you encounter any problems, please refer to the [manual installation](#manual-installation-only-when-step-2-failed) section. If you are not using 3D data, a failed installation of pytorch3d will not affect the functionality of the project.
+If you meet curobo config path issue, try to run `python script/update_embodiment_config_path.py`
 
+If you encounter any problems, please refer to the [manual installation](#manual-installation-only-when-step-2-failed) section. If you are not using 3D data, a failed installation of pytorch3d will not affect the functionality of the project.
 
 
 ## Download Assert (RoboTwin-OD, Texture Library and Embodiments)
