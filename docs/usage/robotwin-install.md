@@ -10,6 +10,7 @@ Operating systems:
 * Linux: Ubuntu 18.04+, Centos 7+
 
 CUDA version:
+
 * 12.1 (Recommended)
 
 Hardware:
