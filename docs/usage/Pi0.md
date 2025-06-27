@@ -1,5 +1,5 @@
 # OpenPI
-## 1. Environment Setup
+## Environment Setup
    
 Follow the official OpenPI website to configure the environment. The OpenPI + RoboTwin environment has already been pre-configured in a file, so no additional setup is needed.
 
@@ -33,10 +33,10 @@ Next, locate `mplib` within the `(openpi)` environment:
 uv run where_is_package.py
 ```
 
-## 2. Generate RoboTwin Data
+## Generate RoboTwin Data
 See [RoboTwin Tutorial (Usage Section)](https://robotwin-platform.github.io/doc/usage/collect-data.html) for more details.
 
-## 3. Generate openpi Data
+## Generate openpi Data
 First, convert RoboTwin data to HDF5 data type.
 ``` bash
 bash process_data_pi0.sh ${task_name} ${task_config} ${expert_data_num}
@@ -69,7 +69,7 @@ export HF_LEROBOT_HOME=/path/to/your/cache
 
 This is because generating the `lerobotdataset` will require a large amount of space.And the datasets will be writed into `$LEROBOT_HOME`.
 
-## 4. Write the Corresponding `train_config`
+## Write the Corresponding `train_config`
 In `src/openpi/training/config.py`, there is a dictionary called `_CONFIGS`. You can modify two pre-configured PI0 configurations I’ve written:
 `pi0_base_aloha_robotwin_lora` 
 `pi0_fast_aloha_robotwin_lora`
@@ -108,7 +108,7 @@ The default `batch_size` is 32 in the table below.
 |  40G | full | 4 | 4 | A100(40G)  |
 |  80G | full | 2 | 2 | A100(80G)  |
 
-## 5. Eval on RoboTwin
+## Eval on RoboTwin
 
 ```bash
 # ckpt_path like: policy/openpi/checkpoints/pi0_base_aloha_robotwin_full/my_task/30000
