@@ -6,6 +6,12 @@ You can run `bash task_config/create_task_config.sh ${task_config_name}` to crea
 
 ## ✅ Minimal Example
 
+**An episode's data will be stored in one HDF5 file. Specifically, the images will be stored as bit streams. If you want to recover the image, you can use the following code:**
+
+```
+image = cv2.imdecode(np.frombuffer(image_bit, np.uint8), cv2.IMREAD_COLOR)
+```
+
 Below is a minimal configuration file to start a typical data collection session:
 
 ```yaml
