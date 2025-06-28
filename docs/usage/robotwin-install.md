@@ -57,7 +57,7 @@ If you meet curobo config path issue, try to run `python script/update_embodimen
 If you encounter any problems, please refer to the [manual installation](#manual-installation-only-when-step-2-failed) section. If you are not using 3D data, a failed installation of pytorch3d will not affect the functionality of the project.
 
 
-## Download Assert (RoboTwin-OD, Texture Library and Embodiments)
+## Download Assets (RoboTwin-OD, Texture Library and Embodiments)
 To download the assets, run the following command. If you encounter any rate-limit issues, please log in to your Hugging Face account by running `huggingface-cli login`:
 ```
 bash script/_download_assets.sh
