@@ -147,7 +147,7 @@ data_type:
 | -------------------- | ---------------------------------- |
 | `rgb`                | RGB image from multiple views.     |
 | `third_view`         | Third-person video.                |
-| `depth`              | Depth images from cameras.         |
+| `depth`              | Depth images from cameras (mm).         |
 | `pointcloud`         | Merged point cloud of the scene.   |
 | `observer`           | Observer-view RGB frame.           |
 | `endpose`            | End-effector 6D pose.              |
