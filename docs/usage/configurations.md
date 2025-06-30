@@ -69,7 +69,7 @@ eval_video_log: true
 |----------------|------|----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | `embodiment`   | list | ✅        | List of robot embodiment(s). For a dual-arm robot, use `[name]`, e.g., `[aloha-agilex]`; to combine two single-arm robots, use `[left, right, interval]`, e.g., `embodiment: [piper, franka-panda, 0.6]`. The `interval` specifies the distance between arms (typically 0.6–0.8 meters). Available Embodiment: `ur5-wsg`, `ARX-X5`, `franka-panda`, `piper`, `aloha-agilex`(dual-arm) |
 | `dual_arm`     | bool | optional | Whether to use both arms. Default: `true`.                                                                                                                |
-| `use_seed`     | bool | ✅        | Whether to use a predefined seed list from `task_config/seeds/`. If `false`, the system will automatically explore viable seeds.                         |
+| `use_seed`     | bool | ✅        | Whether to use a predefined seed list from `data/${task_name}/${task_config}/seed.txt`. If `false`, the system will automatically explore viable seeds.                         |
 | `episode_num`  | int  | ✅        | Number of **successful episodes** to collect.                                                                                                             |
 | `language_num` | int  | optional | If using language-conditioned task planning, sets the number of language descriptions to sample for each task.                                            |
 
