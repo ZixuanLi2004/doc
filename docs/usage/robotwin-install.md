@@ -1,13 +1,21 @@
 # Install & Download
 ## **Dependencies**
 
+System Support: 
+
+We currently best support Linux based systems. There is limited support for windows and no support for MacOS at the moment. We are working on trying to support more features on other systems but this may take some time. Most constraints stem from what the [SAPIEN](https://github.com/haosulab/SAPIEN/) package is capable of supporting.
+
+| System / GPU         | CPU Sim | GPU Sim | Rendering |
+| -------------------- | ------- | ------- | --------- |
+| Linux / NVIDIA GPU   | ✅      | ✅      | ✅        |
+| Windows / NVIDIA GPU | ✅      | ❌      | ✅        |
+| Windows / AMD GPU    | ✅      | ❌      | ✅        |
+| WSL / Anything       | ✅      | ❌      | ❌        |
+| MacOS / Anything     | ✅      | ❌      | ✅        |
+
 Python versions:
 
 * Python 3.10
-
-Operating systems:
-
-* Linux: Ubuntu 18.04+, Centos 7+
 
 CUDA version:
 
