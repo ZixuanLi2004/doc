@@ -139,7 +139,6 @@ RoboTwin: Dual-Arm Robot Benchmark with Generative Digital Twins, accepted to <i
 }
 ```
 
-
 Benchmarking Generalizable Bimanual Manipulation: RoboTwin Dual-Arm Collaboration Challenge at CVPR 2025 MEIS Workshop
 ```
 @misc{chen2025benchmarkinggeneralizablebimanualmanipulation,
