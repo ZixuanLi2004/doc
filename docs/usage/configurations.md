@@ -176,7 +176,7 @@ data_type:
 
 | Field         | Type | Description                                                                                            |
 | ------------- | ---- | ------------------------------------------------------------------------------------------------------ |
-| `render_freq` | int  | Render visualization every N steps. Set to `0` to disable. For servers without display, recommend `0`. |
+| `render_freq` | int  | Render visualization every N steps. Set to `0` to disable. For servers without display, recommend `0`. If you want to visualize the task, try to modify it to `20` (as example) |
 
 ---
 
