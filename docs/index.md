@@ -108,8 +108,9 @@ hr.narrow {margin: 0 10px}
 
 ## Previous Works
 
+<b>[Under Review]</b> <a href="https://robotwin-platform.github.io/">RoboTwin 2.0: A Scalable Data Generator and Benchmark with Strong Domain Randomization for Robust Bimanual Robotic Manipulation</a>
 <b>[CVPR 2025 Highlight]</b> <a href="https://arxiv.org/abs/2504.13059">RoboTwin: Dual-Arm Robot Benchmark with Generative Digital Twins</a><br>
-<b>[CVPR 2025 Challenge@MEIS Workshop]</b> The Technical report is coming soon !<br>
+<b>[CVPR 2025 Challenge@MEIS Workshop]</b> <a href="https://arxiv.org/abs/2506.23351">Benchmarking Generalizable Bimanual Manipulation: RoboTwin Dual-Arm Collaboration Challenge at CVPR 2025 MEIS Workshop</a><br>
 <b>[ECCV 2024 MAAS Workshop Best Paper]</b> <a href="https://arxiv.org/abs/2409.02920">RoboTwin: Dual-Arm Robot Benchmark with Generative Digital Twins (early version)</a><br>
 <b>[第十九届挑战杯官方赛题]</b> <a href="https://2025.tiaozhanbei.net/media/ckeditor_uploads/49/2025/05/14/4.%E3%80%90%E9%A2%98%E7%9B%AE%E5%9B%9B%E3%80%91%E7%AB%AF%E4%BE%A7%E5%8F%AF%E9%83%A8%E7%BD%B2%E7%9A%84%E5%8F%8C%E8%87%82%E6%93%8D%E4%BD%9C%E7%AE%97%E6%B3%95%E8%AE%BE%E8%AE%A1.pdf">赛题链接</a>
 
@@ -135,6 +136,20 @@ RoboTwin: Dual-Arm Robot Benchmark with Generative Digital Twins, accepted to <i
     month     = {June},
     year      = {2025},
     pages     = {27649-27660}
+}
+```
+
+
+Benchmarking Generalizable Bimanual Manipulation: RoboTwin Dual-Arm Collaboration Challenge at CVPR 2025 MEIS Workshop
+```
+@misc{chen2025benchmarkinggeneralizablebimanualmanipulation,
+      title={Benchmarking Generalizable Bimanual Manipulation: RoboTwin Dual-Arm Collaboration Challenge at CVPR 2025 MEIS Workshop}, 
+      author={Tianxing Chen and Kaixuan Wang and Zhaohui Yang and Yuhao Zhang and Zanxin Chen and Baijun Chen and Wanxi Dong and Ziyuan Liu and Dong Chen and Tianshuo Yang and Haibao Yu and Xiaokang Yang and Yusen Qin and Zhiqiang Xie and Yao Mu and Ping Luo and Tian Nian and Weiliang Deng and Yiheng Ge and Yibin Liu and Zixuan Li and Dehui Wang and Zhixuan Liang and Haohui Xie and Rijie Zeng and Yunfei Ge and Peiqing Cong and Guannan He and Zhaoming Han and Ruocheng Yin and Jingxiang Guo and Lunkai Lin and Tianling Xu and Hongzhe Bi and Xuewu Lin and Tianwei Lin and Shujie Luo and Keyu Li and Ziyan Zhao and Ke Fan and Heyang Xu and Bo Peng and Wenlong Gao and Dongjiang Li and Feng Jin and Hui Shen and Jinming Li and Chaowei Cui and Yuchen and Yaxin Peng and Lingdong Zeng and Wenlong Dong and Tengfei Li and Weijie Ke and Jun Chen and Erdemt Bao and Tian Lan and Tenglong Liu and Jin Yang and Huiping Zhuang and Baozhi Jia and Shuai Zhang and Zhengfeng Zou and Fangheng Guan and Tianyi Jia and Ke Zhou and Hongjiu Zhang and Yating Han and Cheng Fang and Yixian Zou and Chongyang Xu and Qinglun Zhang and Shen Cheng and Xiaohe Wang and Ping Tan and Haoqiang Fan and Shuaicheng Liu and Jiaheng Chen and Chuxuan Huang and Chengliang Lin and Kaijun Luo and Boyu Yue and Yi Liu and Jinyu Chen and Zichang Tan and Liming Deng and Shuo Xu and Zijian Cai and Shilong Yin and Hao Wang and Hongshan Liu and Tianyang Li and Long Shi and Ran Xu and Huilin Xu and Zhengquan Zhang and Congsheng Xu and Jinchang Yang and Feng Xu},
+      year={2025},
+      eprint={2506.23351},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2506.23351}, 
 }
 ```
 
