@@ -108,7 +108,7 @@ hr.narrow {margin: 0 10px}
 
 ## Previous Works
 
-<b>[Under Review]</b> <a href="https://robotwin-platform.github.io/">RoboTwin 2.0: A Scalable Data Generator and Benchmark with Strong Domain Randomization for Robust Bimanual Robotic Manipulation</a>
+<b>[Under Review]</b> <a href="https://robotwin-platform.github.io/">RoboTwin 2.0: A Scalable Data Generator and Benchmark with Strong Domain Randomization for Robust Bimanual Robotic Manipulation</a><br>
 <b>[CVPR 2025 Highlight]</b> <a href="https://arxiv.org/abs/2504.13059">RoboTwin: Dual-Arm Robot Benchmark with Generative Digital Twins</a><br>
 <b>[CVPR 2025 Challenge@MEIS Workshop]</b> <a href="https://arxiv.org/abs/2506.23351">Benchmarking Generalizable Bimanual Manipulation: RoboTwin Dual-Arm Collaboration Challenge at CVPR 2025 MEIS Workshop</a><br>
 <b>[ECCV 2024 MAAS Workshop Best Paper]</b> <a href="https://arxiv.org/abs/2409.02920">RoboTwin: Dual-Arm Robot Benchmark with Generative Digital Twins (early version)</a><br>
