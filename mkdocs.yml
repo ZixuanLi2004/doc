@@ -30,6 +30,7 @@ nav:
       - TinyVLA: usage/TinyVLA.md
     - Expert Code Gen (for Novel Task): usage/expert-code-gen.md
     - API Tutorial: usage/API.md
+    - Dual Env (Policy and Deployment): usage/env-policy-deploy.md
     - Description Gen (Object & Task): usage/description.md
     - Object Annotation: usage/object-annotation.md
     - Configuring New Embodiment: new-embodiment.md
