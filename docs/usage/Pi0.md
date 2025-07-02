@@ -36,7 +36,7 @@ See [RoboTwin Tutorial (Usage Section)](https://robotwin-platform.github.io/doc/
 First, convert RoboTwin data to HDF5 data type.
 ``` bash
 bash process_data_pi0.sh ${task_name} ${task_config} ${expert_data_num}
-# bash process_data_pi0.sh beat_block_hammer pi0_demo_randomized 50
+# bash process_data_pi0.sh beat_block_hammer demo_randomized 50
 ```
 
 If success, you will find the `${task_name}-${task_config}-${expert_data_num}` folder under `policy/pi0/processed_data`.
@@ -128,5 +128,5 @@ The default `batch_size` is 32 in the table below.
 ```bash
 # ckpt_path like: policy/pi0/checkpoints/pi0_base_aloha_robotwin_full/my_task/30000
 bash eval.sh ${task_name} ${task_config} ${train_config_name} ${model_name} ${seed} ${gpu_id}
-#bash eval.sh beat_block_hammer pi0_demo_randomized pi0_base_aloha_robotwin_full my_task 0 0
+# bash eval.sh beat_block_hammer demo_randomized pi0_base_aloha_robotwin_full my_task 0 0
 ```
