@@ -28,8 +28,10 @@ pip install -r requirements.txt
 ## 2. Download Model
 
 ```bash
-# In the RoboTwin/policy directory
-cd ../weights
+# In the root directory
+cd policy
+mkdir weights
+cd weights
 mkdir RDT && cd RDT
 # Download the models used by RDT
 huggingface-cli download google/t5-v1_1-xxl --local-dir t5-v1_1-xxl
