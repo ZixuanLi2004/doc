@@ -156,11 +156,15 @@ data_type:
 | `depth`              | Depth images from cameras (mm).         |
 | `pointcloud`         | Merged point cloud of the scene.   |
 | `observer`           | Observer-view RGB frame.           |
-| `endpose`            | End-effector 6D pose.              |
+| `endpose`            | End-effector pose and gripper opening ratio.              |
 | `qpos`               | Robot joint angles.                |
 | `mesh_segmentation`  | Per-object segmentation from mesh. |
 | `actor_segmentation` | Per-actor segmentation from RGB.   |
 
+##### Note
+- `endpose` will get an array of 14 elements. The first 7 elements represent the position  in world and orientation of the left end-effector, along with the opening ratio of the left gripper; the last 7 elements correspond to the right end-effector and gripper. Each group of 7 elements follows the order `x, y, z, r, p, y, ratio`. And the `ratio` is in the range `[0, 1]`. The rotation of end-effector is as the image below: for all embodiments, the end-effector rotation is consistent, with the x-axis pointing across the gripper and the z-axis pointing across the camera.
+
+<img src="./images/end_effector_axis.png" alt="End-Effector Rotation" style="display: block; margin: auto; width: 60%;">
 ---
 
 ### 🔍 Point Cloud Settings
