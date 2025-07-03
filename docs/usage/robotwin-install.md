@@ -13,6 +13,10 @@ We currently best support Linux based systems. There is limited support for wind
 | WSL / Anything       | ✅      | ❌      | ❌        |
 | MacOS / Anything     | ✅      | ❌      | ✅        |
 
+
+> Occasionally, data collection may get stuck when using A/H series GPUs. This issue may be related to [RoboTwin issue #83](https://github.com/RoboTwin-Platform/RoboTwin/issues/83#issuecomment-3012135745) and [SAPIEN issue #219](https://github.com/haosulab/SAPIEN/issues/219).
+
+
 Python versions:
 
 * Python 3.10
