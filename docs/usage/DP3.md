@@ -11,6 +11,9 @@ pip install zarr==2.12.0 wandb ipdb gpustat dm_control omegaconf hydra-core==1.2
 
 ## Prepare Training Data
 
+> If you meet `ZeroDivisionError: division by zero`:
+>  Since **DP3** is a 3D policy that requires point cloud input, please make sure to set `data_type/pointcloud` to `true` during data collection.
+
 This step performs data preprocessing, converting the original **RoboTwin 2.0** data into the **Zarr format** required for DP3 training.
 The `expert_data_num` parameter specifies the number of trajectory pairs to be used as training data.
 
