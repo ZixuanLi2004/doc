@@ -1,4 +1,4 @@
-****# RDT
+# RDT
 ## 1. Environment Setup
 The conda environment for RDT with RoboTwin is identical to the official RDT environment. Please follow the ([RDT official documentation](https://github.com/thu-ml/RoboticsDiffusionTransformer)) to install the environment and directly overwrite the RoboTwin virtual environment in [INSTALLATION.md](../../INSTALLATION.md).
 
@@ -29,7 +29,6 @@ pip install -r requirements.txt
 
 ```bash
 # In the RoboTwin/policy directory
-cd ../weights
 mkdir RDT && cd RDT
 # Download the models used by RDT
 huggingface-cli download google/t5-v1_1-xxl --local-dir t5-v1_1-xxl
