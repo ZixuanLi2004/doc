@@ -122,13 +122,14 @@ camera:
 
 ### 📦 Data Collection Settings
 
-| Field              | Type | Required | Description                                                   |
-| ------------------ | ---- | -------- | ------------------------------------------------------------- |
-| `collect_data`     | bool | ✅        | Enable actual data saving.                                    |
-| `save_freq`        | int  | ✅        | Save every N steps.                                           |
-| `save_path`        | str  | optional | Directory to save data. Default: `./data`.                    |
-| `clear_cache_freq` | int  | optional | Clear cached data every N episodes. Prevents GPU memory overflow. |
-| `eval_video_log`   | bool | optional | Save evaluation videos for replay.                            |
+| Field              | Type | Description                                                                                                                                                                                                                                                                                                  |
+|--------------------|------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `collect_data`     | bool | Enable actual data saving.                                                                                                                                                                                                                                                                                  |
+| `save_freq`        | int  | Save every N steps.                                                                                                                                                                                                                                                                                         |
+| `save_path`        | str  | Directory to save data. Default: `./data`.                                                                                                                                                                                                                                                                  |
+| `clear_cache_freq` | int  | <span style="color:red">Controls the frequency (in episodes) at which the Sapien scene cache is cleared. This helps manage GPU memory usage, especially when domain randomization is enabled and many diverse assets accumulate in memory. A smaller value (e.g., 1) increases clearing frequency but incurs additional time cost.</span> |
+| `eval_video_log`   | bool | Save evaluation videos for replay.                                                                                                                                                                                                                                                                          |
+
 
 ---
 
