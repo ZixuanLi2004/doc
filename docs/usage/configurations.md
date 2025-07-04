@@ -127,7 +127,7 @@ camera:
 | `collect_data`     | bool | ✅        | Enable actual data saving.                                    |
 | `save_freq`        | int  | ✅        | Save every N steps.                                           |
 | `save_path`        | str  | optional | Directory to save data. Default: `./data`.                    |
-| `clear_cache_freq` | int  | optional | Clear cached data every N episodes. Prevents memory overflow. |
+| `clear_cache_freq` | int  | optional | Clear cached data every N episodes. Prevents GPU memory overflow. |
 | `eval_video_log`   | bool | optional | Save evaluation videos for replay.                            |
 
 ---
