@@ -1,7 +1,7 @@
 # Calibration Tool Instructions
 
 ## Rigid Body Object Annotation
-### 1. Create Calibration Window:
+### Create Calibration Window:
 ```bash
 python script/create_object_data.py [-s START] model_name
 
@@ -17,7 +17,7 @@ For example, to calibrate the hammer model located at `assets/objects/020_hammer
 A window will then appear as shown below:
 ![alt text](./object_marking/image.png)
 
-### 2. Calibration Commands:
+### Calibration Commands:
 ```
 resize:
     Usage:
@@ -73,7 +73,7 @@ Notes :
 1. After adjusting the position, you must click "Teleport" under the Transform menu to apply the movement.
 2. Always remember to save your changes before exiting the calibration window!
 
-### 3. View Calibration Files
+### View Calibration Files
 Navigate to the asset folder you just calibrated, and you will find a newly generated `model_data{id}.json` file. You can modify the `"scale"` field within this file to adjust the asset's scaling in the simulation environment.
 ![alt text](./object_marking/image4.png)
 
@@ -81,10 +81,10 @@ The meanings of each field in the asset can be found in the [model_data_info](ob
 
 
 ## URDF Articulation Objects Annotation
-### 1. Create Calibration Window:
+### Create Calibration Window:
 Similar to rigid body object annotation, use the same command to create the articulation calibration window. The calibration program will automatically recognize the asset type.
 
-### 2. Calibration Commands:
+### Calibration Commands:
 ```
 run:
     Usage:

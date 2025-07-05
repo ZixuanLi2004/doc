@@ -1,5 +1,5 @@
 # RDT
-## 1. Environment Setup
+## Environment Setup
 The conda environment for RDT with RoboTwin is identical to the official RDT environment. Please follow the ([RDT official documentation](https://github.com/thu-ml/RoboticsDiffusionTransformer)) to install the environment and directly overwrite the RoboTwin virtual environment in [INSTALLATION.md](../../INSTALLATION.md).
 
 ```bash
@@ -25,7 +25,7 @@ pip install -r requirements.txt
 # pip install tfds-nightly==4.9.4.dev202402070044 -i  https://pypi.org/simple
 # pip install tensorflow==2.15.0.post1 -i  https://pypi.org/simple
 ```
-## 2. Download Model
+## Download Model
 
 ```bash
 # In the RoboTwin/policy directory
@@ -36,11 +36,11 @@ huggingface-cli download google/siglip-so400m-patch14-384 --local-dir siglip-so4
 huggingface-cli download robotics-diffusion-transformer/rdt-1b --local-dir rdt-1b
 ```
 
-## 3. Collect RoboTwin Data
+## Collect RoboTwin Data
 
 See [RoboTwin Tutorial (Usage Section)](https://robotwin-platform.github.io/doc/usage/collect-data.html) for more details.
 
-## 4. Generate HDF5 Data
+## Generate HDF5 Data
 > HDF5 is the data format required for RDT training.
 
 First, create the `processed_data` and `training_data` folders in the `policy/RDT` directory:
@@ -56,7 +56,7 @@ bash process_data_rdt.sh ${task_name} ${task_config} ${expert_data_num} ${gpu_id
 
 If success, you will find the `${task_name}-${task_config}-${expert_data_num}` folder under `policy/RDT/processed_data`.
 
-## 4. Generate Configuration File
+## Generate Configuration File
 A `$model_name` manages the training of a model, including the training data and training configuration.
 ```bash
 cd policy/RDT
@@ -66,7 +66,7 @@ bash generate.sh ${model_name}
 
 This will create a folder named `\${model_name}` under training_data and a configuration file `\${model_name}.yml` under model_config.
 
-### 4.1 Prepare Data
+### Prepare Data
 Copy all the data you wish to use for training from `processed_data` into `training_data/${model_name}`. If you have multiple tasks with different data, simply copy them in the same way.
 
 Example folder structure:
@@ -83,10 +83,10 @@ training_data/${model_name}
 ├── ...
 ```
 
-### 4.2 Modify Training Config
+### Modify Training Config
 In `model_config/${model_name}.yml`, you need to manually set the GPU to be used (modify `cuda_visible_device`). For a single GPU, try format like `0` to set GPU 0. For multi-GPU usage, try format like `0,1,4`. You can flexibly modify other parameters.
 
-## 5. Finetune model
+## Finetune model
 
 Once the training parameters are set, you can start training with:
 ```bash
@@ -99,7 +99,7 @@ If you fine-tune the model using a single GPU, DeepSpeed will not save `pytorch_
 
 This will use the pretrain pipeline to import the model, which is the same import structure as the default `../weights/RDT/rdt-1b`.
 
-## 6. Eval on RoboTwin
+## Eval on RoboTwin
 The `task_config` field refers to the **evaluation environment configuration**, while the `model_name` field refers to the **training data configuration** used during policy learning.
 
 ```bash
