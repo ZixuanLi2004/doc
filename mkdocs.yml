@@ -15,7 +15,7 @@ nav:
     - Contributions: main/contributions.md
   - Usage:
     - usage/index.md
-    - READ THIS Before Using RoboTWin: usage/before-using-robotwin.md
+    - READ THIS Before Using RoboTwin: usage/before-using-robotwin.md
     - Install & Download: usage/robotwin-install.md
     - Collect Data: usage/collect-data.md
     - Domain Randomization: usage/domain-randomization.md
