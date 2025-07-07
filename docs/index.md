@@ -84,7 +84,7 @@ hr.narrow {margin: 0 10px}
 
 <img src="./assets/robotwin-text-logo.jpg" alt="description" style="display: block; margin: auto; width: 70%;">
 
-<h3 align="center"><b><a href="https://robotwin-platform.github.io/">Webpage</a> | <a href="https://arxiv.org/pdf/2506.18088">PDF</a> | <a href="https://arxiv.org/abs/2506.18088">arXiv</a> | <a href="http://github.com/robotwin-Platform/RoboTwin">Repo</a></b></h3>
+<h3 align="center"><b><a href="https://robotwin-platform.github.io/">Webpage</a> | <a href="https://arxiv.org/pdf/2506.18088">PDF</a> | <a href="https://arxiv.org/abs/2506.18088">arXiv</a> | <a href="http://github.com/robotwin-Platform/RoboTwin">Repo</a> | <a href="https://www.bilibili.com/video/BV18p3izYE63/?spm_id_from=333.337.search-card.all.click&vd_source=ab9cf5374617c2867aaea34af29b53c9">Talk (in Chinese)</a></b></b></h3>
 
 > Here is the official documentation for RoboTwin 2.0, which includes installation and usage instructions for various RoboTwin functionalities, detailed information on the 50 bimanual tasks in RoboTwin 2.0, comprehensive descriptions of the RoboTwin-OD dataset, and guidelines for joining the community.
 
