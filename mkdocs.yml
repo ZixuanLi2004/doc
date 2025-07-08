@@ -20,6 +20,7 @@ nav:
     - Collect Data: usage/collect-data.md
     - Domain Randomization: usage/domain-randomization.md
     - Configurations: usage/configurations.md
+    - Control Robot: control-robot.md
     - Policies (Env, Train & Eval):
       - Deploy Your Policy: usage/deploy-your-policy.md
       - ACT: usage/ACT.md
