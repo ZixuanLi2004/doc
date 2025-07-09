@@ -163,7 +163,7 @@ data_type:
 | `actor_segmentation` | Per-actor segmentation from RGB.   |
 
 ##### Note
-- `endpose` will get an array of 14 elements. The first 7 elements represent the position  in world and orientation of the left end-effector, along with the opening ratio of the left gripper; the last 7 elements correspond to the right end-effector and gripper. Each group of 7 elements follows the order `x, y, z, r, p, y, ratio`. And the `ratio` is in the range `[0, 1]`. The rotation of end-effector is as the image below: for all embodiments, the end-effector rotation is consistent, with the x-axis pointing across the gripper and the z-axis pointing across the camera.
+- `endpose` will get an dict containing `left_endpose`, `left_gripper`, `right_endpose` and `right_gripper`. The `left_endpose` and `right_endpose` are list of 7 elements represent the position in world and orientation of the  end-effectors, following the order `x, y, z, qw, qx, qy, qz`. And the `left_gripper` and `right_gripper` are float numbers, which repersent the opening ratio of the gripper, ranging from 0 to 1. The rotation of end-effector is as the image below: for all embodiments, the end-effector rotation is consistent, with the x-axis pointing across the gripper and the z-axis pointing across the camera.
 
 <img src="./images/end_effector_axis.png" alt="End-Effector Rotation" style="display: block; margin: auto; width: 60%;">
 ---
