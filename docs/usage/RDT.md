@@ -111,3 +111,5 @@ bash eval.sh ${task_name} ${task_config} ${model_name} ${checkpoint_id} ${seed} 
 # To evaluate a policy trained on the `demo_randomized` setting and tested on the `demo_clean` setting, run:
 # bash eval.sh beat_block_hammer demo_clean RDT_demo_randomized 10000 0 0
 ```
+
+The evaluation results, including videos, will be saved in the `eval_result` directory under the project root.
