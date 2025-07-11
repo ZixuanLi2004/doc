@@ -35,6 +35,8 @@ nav:
     - Description Gen (Object & Task): usage/description.md
     - Object Annotation: usage/object-annotation.md
     - Configuring New Embodiment: new-embodiment.md
+  - Common Issue:
+    - common-issue/index.md
   - 50 Bimanual Tasks:
     - tasks/index.md
     - Adjust Bottle: tasks/adjust_bottle.md
@@ -209,8 +211,6 @@ nav:
     - 118_Tooth-Paste: objects/118_tooth-paste.md
     - 119_Mini-Chalkboard: objects/119_mini-chalkboard.md
     - 120_Plant: objects/120_plant.md
-  - Common Issue:
-    - common-issue/index.md
   - Community:
     - community/index.md
 theme:
