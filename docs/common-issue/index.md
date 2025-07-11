@@ -10,7 +10,7 @@ robotwin-platform.github.io/doc/usage/configurations.html)).
 Try: [[SAPIEN issue: https://github.com/haosulab/SAPIEN/issues/243](https://github.com/haosulab/SAPIEN/issues/243)]
 
 ## Stuck While Collecting Data and Evaluating
-Please check your GPU model. According to user feedback and known issues reported on SAPIEN [[SAPIEN issue: https://github.com/haosulab/SAPIEN/issues/219](https://github.com/haosulab/SAPIEN/issues/219)], Hopper/Ampere series GPUs (e.g., A100, H100) may occasionally experience unexpected hangs during data collection. You may try skipping the affected seed as a workaround.
+Please check your GPU model. According to user feedback and known issues reported on SAPIEN [[SAPIEN issue: https://github.com/haosulab/SAPIEN/issues/219](https://github.com/haosulab/SAPIEN/issues/219)], Hopper/Ampere series GPUs (e.g., A100, H100) may occasionally experience unexpected hangs during data collection. You may try skipping the affected seed as a workaround (remove the specific seed in the `data/${task_name}/${task_config}/seed.txt`).
 
 ## Join the RoboTwin Community
 
