@@ -25,10 +25,14 @@ pip install -r requirements.txt
 # pip install tfds-nightly==4.9.4.dev202402070044 -i  https://pypi.org/simple
 # pip install tensorflow==2.15.0.post1 -i  https://pypi.org/simple
 ```
+
 ## Download Model
 
 ```bash
-# In the RoboTwin/policy directory
+# In the ROOT directory
+cd policy 
+mkdir weights
+cd weights
 mkdir RDT && cd RDT
 # Download the models used by RDT
 huggingface-cli download google/t5-v1_1-xxl --local-dir t5-v1_1-xxl
