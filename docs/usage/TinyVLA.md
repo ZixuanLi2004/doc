@@ -74,6 +74,7 @@ You need to modify the corresponding path in the `deploy_policy.yml` file:
 3. **model_base** : Path to InternVL3-1B.
 
 Then execute:
+
 ```
 bash eval.sh ${task_name} ${task_config} ${ckpt_setting} ${expert_data_num} ${seed} ${gpu_id}
 # bash eval.sh beat_block_hammer demo_randomized 0 50 0 0
@@ -82,6 +83,7 @@ bash eval.sh ${task_name} ${task_config} ${ckpt_setting} ${expert_data_num} ${se
 ## Citation
 
 If you find Tiny-VLA useful for your research and applications, please cite using this BibTeX:
+
 ```bibtex
 @inproceedings{wen2024tinyvla,
     title={Tinyvla: Towards fast, data-efficient vision-language-action models for robotic manipulation},

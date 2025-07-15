@@ -78,16 +78,18 @@ bash eval.sh ${task_name} ${task_config} ${ckpt_setting} ${expert_data_num} ${se
 
 If you find our works useful for your research and applications, please cite using these BibTeX:
 
+### DexVLA
 ```bibtex
-# DexVLA
 @article{wen2025dexvla,
   title={DexVLA: Vision-Language Model with Plug-In Diffusion Expert for General Robot Control},
   author={Wen, Junjie and Zhu, Yichen and Li, Jinming and Tang, Zhibin and Shen, Chaomin and Feng, Feifei},
   journal={arXiv preprint arXiv:2502.05855},
   year={2025}
 }
+```
 
-# Diffusion-VLA
+### DiffusionVLA
+```bibtex
 @article{wen2024diffusion,
   title={Diffusion-VLA: Scaling Robot Foundation Models via Unified Diffusion and Autoregression},
   author={Wen, Junjie and Zhu, Minjie and Zhu, Yichen and Tang, Zhibin and Li, Jinming and Zhou, Zhongyi and Li, Chengmeng and Liu, Xiaoyu and Peng, Yaxin and Shen, Chaomin and others},
@@ -95,7 +97,6 @@ If you find our works useful for your research and applications, please cite usi
   year={2024}
 }
 
-# ScaleDP
 @article{zhu2024scaling,
   title={Scaling diffusion policy in transformer to 1 billion parameters for robotic manipulation},
   author={Zhu, Minjie and Zhu, Yichen and Li, Jinming and Wen, Junjie and Xu, Zhiyuan and Liu, Ning and Cheng, Ran and Shen, Chaomin and Peng, Yaxin and Feng, Feifei and others},
