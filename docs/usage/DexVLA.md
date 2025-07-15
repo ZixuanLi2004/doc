@@ -96,7 +96,10 @@ If you find our works useful for your research and applications, please cite usi
   journal={arXiv preprint arXiv:2412.03293},
   year={2024}
 }
+```
 
+### ScaleDP
+```bibtex
 @article{zhu2024scaling,
   title={Scaling diffusion policy in transformer to 1 billion parameters for robotic manipulation},
   author={Zhu, Minjie and Zhu, Yichen and Li, Jinming and Wen, Junjie and Xu, Zhiyuan and Liu, Ning and Cheng, Ran and Shen, Chaomin and Peng, Yaxin and Feng, Feifei and others},
