@@ -29,6 +29,7 @@ nav:
       - Pi0: usage/Pi0.md
       - DexVLA: usage/DexVLA.md
       - TinyVLA: usage/TinyVLA.md
+      - LLaVA-VLA: usage/LLaVA-VLA.md
     - Expert Code Gen (for Novel Task): usage/expert-code-gen.md
     - API Tutorial: usage/API.md
     - Dual Env (Policy and Deployment): usage/dual-env-policy-deploy.md
