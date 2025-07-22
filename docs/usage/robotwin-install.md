@@ -16,7 +16,6 @@ We currently best support Linux based systems. There is limited support for wind
 
 > Occasionally, data collection may get stuck when using A/H series GPUs. This issue may be related to [RoboTwin issue #83](https://github.com/RoboTwin-Platform/RoboTwin/issues/83#issuecomment-3012135745) and [SAPIEN issue #219](https://github.com/haosulab/SAPIEN/issues/219).
 
-
 Python versions:
 
 * Python 3.10
@@ -39,6 +38,18 @@ Software:
 
 * Ray tracing: NVIDIA Driver >= 470
 * Denoising (OIDN): NVIDIA Driver >= 520
+
+### Additional Requirements for Docker
+
+When running in a Docker container, ensure that the following environment variable is set when starting the container:
+
+```bash
+-e NVIDIA_DRIVER_CAPABILITIES=compute,utility,graphics
+```
+
+Important : The graphics capability is essential. Omitting it may result in segmentation faults due to missing Vulkan support.
+
+For more information, see [HERE](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/docker-specialized.html).
 
 ## Install Vulkan (if not installed)
 Check `vulkaninfo`
