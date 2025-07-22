@@ -52,10 +52,11 @@ Important : The graphics capability is essential. Omitting it may result in segm
 For more information, see [HERE](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/docker-specialized.html).
 
 ## Install Vulkan (if not installed)
-Check `vulkaninfo`
 ```
 sudo apt install libvulkan1 mesa-vulkan-drivers vulkan-tools
 ```
+Check by running `vulkaninfo`
+
 
 ## Basic Env
 First, prepare a conda environment.
@@ -79,6 +80,7 @@ If you meet curobo config path issue, try to run `python script/update_embodimen
 
 If you encounter any problems, please refer to the [manual installation](#manual-installation-only-when-step-2-failed) section. If you are not using 3D data, a failed installation of pytorch3d will not affect the functionality of the project.
 
+If you haven't installed ffmpeg, please turn to [https://ffmpeg.org/](https://ffmpeg.org/). Check it by running `ffmpeg -version`.
 
 ## Download Assets (RoboTwin-OD, Texture Library and Embodiments)
 To download the assets, run the following command. If you encounter any rate-limit issues, please log in to your Hugging Face account by running `huggingface-cli login`:

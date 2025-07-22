@@ -25,10 +25,14 @@ pip install -r requirements.txt
 # pip install tfds-nightly==4.9.4.dev202402070044 -i  https://pypi.org/simple
 # pip install tensorflow==2.15.0.post1 -i  https://pypi.org/simple
 ```
+
 ## Download Model
 
 ```bash
-# In the RoboTwin/policy directory
+# In the ROOT directory
+cd policy 
+mkdir weights
+cd weights
 mkdir RDT && cd RDT
 # Download the models used by RDT
 huggingface-cli download google/t5-v1_1-xxl --local-dir t5-v1_1-xxl
@@ -111,3 +115,5 @@ bash eval.sh ${task_name} ${task_config} ${model_name} ${checkpoint_id} ${seed} 
 # To evaluate a policy trained on the `demo_randomized` setting and tested on the `demo_clean` setting, run:
 # bash eval.sh beat_block_hammer demo_clean RDT_demo_randomized 10000 0 0
 ```
+
+The evaluation results, including videos, will be saved in the `eval_result` directory under the project root.

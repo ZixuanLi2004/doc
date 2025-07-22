@@ -174,3 +174,5 @@ bash eval.sh ${task_name} ${task_config} ${train_config_name} ${model_name} ${se
 # To evaluate a policy trained on the `demo_randomized` setting and tested on the `demo_clean` setting, run:
 # bash eval.sh beat_block_hammer demo_clean pi0_base_aloha_robotwin_full demo_randomized 0 0
 ```
+
+The evaluation results, including videos, will be saved in the `eval_result` directory under the project root.

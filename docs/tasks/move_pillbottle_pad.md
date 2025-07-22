@@ -31,7 +31,7 @@
         </thead>
         <tbody>
             <tr style="background:white;">
-                <td style="border:1px solid #ccc;padding:6px 14px;color:black;">Success Rate</td>
+                <td style="border:1px solid #ccc;padding:6px 14px;color:black;">Data Generation Success Rate</td>
                 <td style="border:1px solid #ccc;padding:6px 14px;color:black;">67%</td>
                 <td style="border:1px solid #ccc;padding:6px 14px;color:black;">90%</td>
                 <td style="border:1px solid #ccc;padding:6px 14px;color:black;">69%</td>

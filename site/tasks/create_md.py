@@ -147,7 +147,7 @@ if __name__ == "__main__":
         </thead>
         <tbody>
             <tr style="background:white;">
-                <td style="border:1px solid #ccc;padding:6px 14px;color:black;">Success Rate</td>
+                <td style="border:1px solid #ccc;padding:6px 14px;color:black;">Data Generation Success Rate</td>
                 <td style="border:1px solid #ccc;padding:6px 14px;color:black;">${ALOHA}$</td>
                 <td style="border:1px solid #ccc;padding:6px 14px;color:black;">${X5}$</td>
                 <td style="border:1px solid #ccc;padding:6px 14px;color:black;">${FRANKA}$</td>

@@ -15,7 +15,6 @@ nav:
     - Contributions: main/contributions.md
   - Usage:
     - usage/index.md
-    - READ THIS Before Using RoboTwin: usage/before-using-robotwin.md
     - Install & Download: usage/robotwin-install.md
     - Collect Data: usage/collect-data.md
     - Domain Randomization: usage/domain-randomization.md
@@ -36,6 +35,8 @@ nav:
     - Description Gen (Object & Task): usage/description.md
     - Object Annotation: usage/object-annotation.md
     - Configuring New Embodiment: new-embodiment.md
+  - Common Issue:
+    - common-issue/index.md
   - 50 Bimanual Tasks:
     - tasks/index.md
     - Adjust Bottle: tasks/adjust_bottle.md
