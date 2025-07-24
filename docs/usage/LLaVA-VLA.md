@@ -1,4 +1,8 @@
-# LLaVA-VLA deployed on RoboTwin2.0
+# LLaVA-VLA
+
+> Contributed by IRPN Lab, HKUST(GZ)<br>
+> Email: songwenxuan0115@gmail.com, sunxiaoquan@hust.edu.cn
+
 ## Environment Setup
 See [LLaVA-VLA installation](https://github.com/OpenHelix-Team/LLaVA-VLA?tab=readme-ov-file#installation) for more details.
 ## Download Model
