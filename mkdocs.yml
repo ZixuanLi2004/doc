@@ -36,6 +36,7 @@ nav:
     - Description Gen (Object & Task): usage/description.md
     - Object Annotation: usage/object-annotation.md
     - Configuring New Embodiment: new-embodiment.md
+    - Configuring New Camera: new-camera.md
   - Common Issue:
     - common-issue/index.md
   - 50 Bimanual Tasks:
