@@ -35,8 +35,8 @@ nav:
     - Dual Env (Policy and Deployment): usage/dual-env-policy-deploy.md
     - Description Gen (Object & Task): usage/description.md
     - Object Annotation: usage/object-annotation.md
-    - Configuring New Embodiment: new-embodiment.md
-    - Configuring New Camera: new-camera.md
+    - Configuring New Embodiment: usage/new-embodiment.md
+    - Configuring New Camera: usage/new-camera.md
   - Common Issue:
     - common-issue/index.md
   - 50 Bimanual Tasks:
