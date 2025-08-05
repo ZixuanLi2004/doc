@@ -279,8 +279,8 @@ markdown_extensions:
       custom_checkbox: true
   - pymdownx.tilde
   - pymdownx.emoji:
-      # emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:pymdownx.emoji.twemoji
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
 
 extra_javascript:
   - javascripts/config.js
