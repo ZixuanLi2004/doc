@@ -102,7 +102,7 @@ assets
 └── ...
 ```
 
-## Manual Installation (Only when step 2 failed)
+## Manual Installation (Only when step 3 failed)
 1. Install requirements
 ```bash
 pip install -r requirements.txt
