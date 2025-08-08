@@ -215,6 +215,8 @@ nav:
     - 120_Plant: objects/120_plant.md
   - Community:
     - community/index.md
+  - Leaderboard:
+    - https://robotwin-platform.github.io/leaderboard
 theme:
   name: material
   palette:
