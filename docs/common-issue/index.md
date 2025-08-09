@@ -12,7 +12,7 @@ Try [[SAPIEN issue: https://github.com/haosulab/SAPIEN/issues/243](https://githu
 
 ## Stuck While Collecting Data and Evaluating
 
-Please check your GPU model. According to user feedback and known issues reported on SAPIEN [[SAPIEN issue: https://github.com/haosulab/SAPIEN/issues/219](https://github.com/haosulab/SAPIEN/issues/219)], Hopper/Ampere series GPUs (e.g., A100, H100) may occasionally experience unexpected hangs during data collection. You may try skipping the affected seed as a workaround (remove the specific seed in the `data/${task_name}/${task_config}/seed.txt`).
+Please check your GPU model. According to user feedback and known issues reported on SAPIEN [[SAPIEN issue: https://github.com/haosulab/SAPIEN/issues/219](https://github.com/haosulab/SAPIEN/issues/219)], Hopper/Ampere series GPUs (e.g., A100, H100) may occasionally experience unexpected hangs during data collection. You may try **to** replace the affected seed (in `data/${task_name}/${task_config}/seed.txt`) and trajectory data (`data/${task_name}/${task_config}/_traj_data/`) with the last seed and episode data.
 
 ## Join the RoboTwin Community
 
