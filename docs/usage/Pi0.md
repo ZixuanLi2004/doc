@@ -5,12 +5,13 @@ We use [uv](https://docs.astral.sh/uv/) to manage Python dependencies,you can ad
 
 ```bash
 conda activate RoboTwin
-#Install uv
+# Install uv
 pip install uv
 ```
-Once uv is installed, run the following to set up the environment:
+Once uv is installed, run the following commands to set up the environment:
 
 ```bash
+cd policy/pi0
 # Install prequisites in uv environment
 GIT_LFS_SKIP_SMUDGE=1 uv sync
 ```
