@@ -16,13 +16,12 @@ Below is a minimal configuration file to start a typical data collection session
 
 ```yaml
 render_freq: 0
-episode_num: 100
+episode_num: 50
 use_seed: false
 save_freq: 15
 embodiment:
-  - aloha-agilex
+- aloha-agilex
 language_num: 100
-
 domain_randomization:
   random_background: true
   cluttered_table: true
@@ -31,28 +30,23 @@ domain_randomization:
   random_table_height: 0.03
   random_light: true
   crazy_random_light_rate: 0.02
-  random_embodiment: false
-
 camera:
   head_camera_type: D435
   wrist_camera_type: D435
   collect_head_camera: true
   collect_wrist_camera: true
-
 data_type:
   rgb: true
   third_view: false
   depth: false
   pointcloud: false
   observer: false
-  endpose: false
+  endpose: true
   qpos: true
   mesh_segmentation: false
   actor_segmentation: false
-
 pcd_down_sample_num: 1024
 pcd_crop: true
-dual_arm: true
 save_path: ./data
 clear_cache_freq: 5
 collect_data: true
@@ -68,7 +62,6 @@ eval_video_log: true
 | Field          | Type | Required | Description                                                                                                                                               |
 |----------------|------|----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | `embodiment`   | list | ✅        | List of robot embodiment(s). For a dual-arm robot, use `[name]`, e.g., `[aloha-agilex]`; to combine two single-arm robots, use `[left, right, interval]`, e.g., `embodiment: [piper, franka-panda, 0.6]`, `embodiment: [franka-panda, franka-panda, 0.8]`. The `interval` specifies the distance between arms (typically 0.6–0.8 meters). Available Embodiment: `ur5-wsg`, `ARX-X5`, `franka-panda`, `piper`, `aloha-agilex`(dual-arm) |
-| `dual_arm`     | bool | optional | Whether to use both arms. Default: `true`.                                                                                                                |
 | `use_seed`     | bool | ✅        | Whether to use a predefined seed list from `data/${task_name}/${task_config}/seed.txt`. If `false`, the system will automatically explore viable seeds.                         |
 | `episode_num`  | int  | ✅        | Number of **successful episodes** to collect.                                                                                                             |
 | `language_num` | int  | optional | If using language-conditioned task planning, sets the number of language descriptions to sample for each task.                                            |
