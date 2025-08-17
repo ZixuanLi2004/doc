@@ -12,6 +12,12 @@ bash collect_data.sh ${task_name} ${task_config} ${gpu_id}
 
 After data collection is completed, the collected data will be stored under `data/${task_name}/${task_config}`.
 
+**An episode's data will be stored in one HDF5 file. Specifically, the images will be stored as bit streams. If you want to recover the image, you can use the following code:**
+
+```
+image = cv2.imdecode(np.frombuffer(image_bit, np.uint8), cv2.IMREAD_COLOR)
+```
+
 * Each trajectory's observation and action data are saved in **HDF5 format** in the `data` directory.
 * The corresponding **language instructions** for each trajectory are stored in the `instructions` directory.
 * **Head camera videos** of each trajectory can be found in the `video` directory.
