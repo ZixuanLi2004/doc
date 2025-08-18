@@ -1,6 +1,6 @@
 # Openvla-oft
 ## Environment Setup
-The conda environment for openvla-oft with RoboTwin is identical to the official openvla-oft environment for the ALOHA part. Please follow the ([openvla-oft official documentation](https://github.com/moojink/openvla-oft/blob/main/SETUP.md)) to install the environment and directly overwrite the RoboTwin virtual environment in [INSTALLATION.md](../../INSTALLATION.md).
+The conda environment for openvla-oft with RoboTwin is identical to the official openvla-oft environment for the ALOHA part. Please follow the ([openvla-oft official documentation](https://github.com/moojink/openvla-oft/blob/main/SETUP.md)) to install the environment and directly overwrite the RoboTwin environment.
 
 ```bash
 conda activate RoboTwin
