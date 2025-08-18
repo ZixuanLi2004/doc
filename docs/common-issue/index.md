@@ -16,6 +16,10 @@ Please check your GPU model. According to user feedback and known issues reporte
 
 You can run `python data/process_stuck.py ${task_name} ${task_config} ${seed_id}` to skip the specific seed and rerun the data collection script. You can identify the `${seed_id}` from the terminal output. For example, if you get stuck at `saving: episode = 478  index = 105`, then `478` is the `${seed_id}`. This will replace the affected seed (in `data/${task_name}/${task_config}/seed.txt`) and trajectory data (in `data/${task_name}/${task_config}/_traj_data/`) with the last seed and episode data. **IMPORTANT:** this may result in insufficient episode data, so please modify the `episode_num` parameter in the task config to collect more seeds and ensure the final dataset has enough episodes.
 
+## 50 Series GPU
+
+See [issue](https://github.com/RoboTwin-Platform/RoboTwin/issues/52).
+
 ## Join the RoboTwin Community
 
 Consider joining the [WeChat Community](https://robotwin-platform.github.io/doc/community/index.html) to stay connected and receive updates.
