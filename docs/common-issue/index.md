@@ -12,7 +12,9 @@ Try [[SAPIEN issue: https://github.com/haosulab/SAPIEN/issues/243](https://githu
 
 ## Stuck While Collecting Data and Evaluating
 
-Please check your GPU model. According to user feedback and known issues reported on SAPIEN [[SAPIEN issue: https://github.com/haosulab/SAPIEN/issues/219](https://github.com/haosulab/SAPIEN/issues/219)], Hopper/Ampere series GPUs (e.g., A100, H100) may occasionally experience unexpected hangs during data collection. You may try **to** replace the affected seed (in `data/${task_name}/${task_config}/seed.txt`) and trajectory data (`data/${task_name}/${task_config}/_traj_data/`) with the last seed and episode data.
+Please check your GPU model. According to user feedback and known issues reported on SAPIEN [[SAPIEN issue: https://github.com/haosulab/SAPIEN/issues/219](https://github.com/haosulab/SAPIEN/issues/219)], Hopper/Ampere series GPUs (e.g., A100, H100) may occasionally experience unexpected hangs during data collection. 
+
+You can run `python data/process_stuck.py ${task_name} ${task_config} ${seed_id}` to skip the specific seed and rerun the data collection script. You can identify the `${seed_id}` from the terminal output. For example, if you get stuck at `saving: episode = 478  index = 105`, then `478` is the `${seed_id}`. This will replace the affected seed (in `data/${task_name}/${task_config}/seed.txt`) and trajectory data (in `data/${task_name}/${task_config}/_traj_data/`) with the last seed and episode data. **IMPORTANT:** this may result in insufficient episode data, so please modify the `episode_num` parameter in the task config to collect more seeds and ensure the final dataset has enough episodes.
 
 ## Join the RoboTwin Community
 
