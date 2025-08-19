@@ -349,12 +349,17 @@ target_pose_q = [1., 0., 0., 0.]
 goal_pose_of_gripper = CuroboPose.from_list(list(target_pose_p) + list(target_pose_q))
 ```
 
-Modify `envs/beat_block_hammer.py` to add a sleep:
+Modify `envs/beat_block_hammer.py` to add a temporary test:
 
 ```python
-self.move(self.grasp_actor(self.hammer, arm_tag=arm_tag, pre_grasp_dis=0.12, grasp_dis=0.01, gripper_pos=0.35))
-# Add sleep for observation
+######## Add temporary test ##########
+arm_tag = ArmTag('left')
+action = Action(arm_tag, 'move', [-0.05,0.,0.9])
+self.move((arm_tag, [action]))
 time.sleep(100)
+######################################
+# Grasp the hammer with the selected arm
+self.move(self.grasp_actor(self.hammer, arm_tag=arm_tag, pre_grasp_dis=0.12, grasp_dis=0.01, gripper_pos=0.35))
 ```
 
 Set `render_freq` to a positive number in your task config (e.g., `demo_randomized.yml`), then run:
@@ -506,9 +511,9 @@ def play_once(self):
     # Use left arm for testing
     arm_tag = "left"
 
-    # Grasp the hammer with the selected arm
-    action = self.grasp_actor(self.hammer, arm_tag=arm_tag, pre_grasp_dis=0.12, grasp_dis=0.01, gripper_pos=0.35)
-    self.move(action)
+    arm_tag = ArmTag('left')
+    action = Action(arm_tag, 'move', [-0.05,0.,0.9])
+    self.move((arm_tag, [action]))
     
     import transforms3d as t3d
     while True:
